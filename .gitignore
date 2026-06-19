@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Build products
+*.app
+CursorTrail
+CursorTrail_arm64
+CursorTrail_x86_64
+
+# Swift / Xcode
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Temporary files
+*.tmp
+*.log
