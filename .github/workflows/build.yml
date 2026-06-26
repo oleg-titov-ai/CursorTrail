@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build-macos-app:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show Swift version
+        run: swiftc --version
+
+      - name: Build CursorTrail
+        run: |
+          chmod +x build.sh
+          ./build.sh
+
+      - name: Verify application bundle
+        run: |
+          test -d CursorTrail.app
+          test -x CursorTrail.app/Contents/MacOS/CursorTrail
+          plutil -lint CursorTrail.app/Contents/Info.plist
