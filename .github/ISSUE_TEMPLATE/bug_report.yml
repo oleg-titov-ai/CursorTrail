@@ -1,0 +1,70 @@
+name: Bug report
+description: Report a reproducible CursorTrail problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please describe only the CursorTrail behavior and avoid sharing private screenshots or unrelated system logs.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Build the app
+        2. Open CursorTrail.app
+        3. Select a trail option
+        4. Observe the issue
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "macOS 14.5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - App launch
+        - Menu-bar controls
+        - Trail rendering
+        - Settings persistence
+        - Fullscreen behavior
+        - Multi-display behavior
+        - Build script
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Extra details
+      description: Add safe notes, selected trail style, selected opacity, or build output.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I tested with the latest main branch.
+          required: true
+        - label: I removed private screenshots, personal files, and unrelated logs.
+          required: true
