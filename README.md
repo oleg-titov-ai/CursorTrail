@@ -4,6 +4,8 @@
 
 **CursorTrail** — маленькое menu-bar приложение для macOS, которое добавляет плавно исчезающий «шлейф» за курсором мыши, как в старых версиях Windows. Простая визуальная утилита без внешних зависимостей.
 
+> The app is a local visual utility and does not record or transmit cursor activity.
+
 ---
 
 ## 🇷🇺 Описание на русском
