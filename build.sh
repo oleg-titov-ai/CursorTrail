@@ -16,6 +16,11 @@ if ! command -v swiftc >/dev/null 2>&1; then
   exit 1
 fi
 
+if ! command -v codesign >/dev/null 2>&1; then
+  echo "❌ codesign not found. Install Apple Command Line Tools."
+  exit 1
+fi
+
 if [ ! -f "$SRC" ]; then
   echo "❌ $SRC not found. Run this script from the project directory."
   exit 1
