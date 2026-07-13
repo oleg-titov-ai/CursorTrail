@@ -94,6 +94,8 @@ chmod +x build.sh
 ./build.sh
 ```
 
+The build script removes the previous local `CursorTrail.app` bundle before compiling a fresh one.
+
 Run it:
 
 ```bash
