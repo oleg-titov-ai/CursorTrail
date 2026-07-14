@@ -64,6 +64,7 @@ cat > "$CONTENTS_DIR/Info.plist" <<PLIST
 </plist>
 PLIST
 
+plutil -lint "$CONTENTS_DIR/Info.plist" >/dev/null
 chmod +x "$BIN_PATH"
 
 echo "🔏 Ad-hoc signing..."
