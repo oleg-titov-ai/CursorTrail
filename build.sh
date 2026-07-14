@@ -68,6 +68,7 @@ chmod +x "$BIN_PATH"
 
 echo "🔏 Ad-hoc signing..."
 codesign --force --deep --sign - "$APP_DIR" >/dev/null
+codesign --verify --deep --strict "$APP_DIR"
 
 echo "✅ Built $APP_DIR"
 echo "🚀 Run: open $APP_DIR"
