@@ -22,6 +22,7 @@ Package.resolved.bak
 *.tmp
 *.log
 *.swp
+*.orig
 
 # Swift Package Manager cache
 .swiftpm-cache/
