@@ -16,6 +16,7 @@ CursorTrail_x86_64
 DerivedData/
 *.xcodeproj/xcuserdata/
 *.xcworkspace/xcuserdata/
+*.xcuserdatad/
 *.xccheckout
 Package.resolved.bak
 *.xcuserstate
