@@ -20,6 +20,7 @@ DerivedData/
 *.xccheckout
 Package.resolved.bak
 *.xcuserstate
+*.xcbkptlist
 
 # Temporary files
 *.tmp
