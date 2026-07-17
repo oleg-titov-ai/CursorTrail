@@ -8,6 +8,7 @@ CursorTrail_arm64
 CursorTrail_x86_64
 *.dSYM/
 *.xcarchive/
+*.xcresult/
 
 # Swift / Xcode
 .build/
