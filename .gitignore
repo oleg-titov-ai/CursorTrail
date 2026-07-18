@@ -22,6 +22,9 @@ Package.resolved.bak
 *.xcuserstate
 *.xcbkptlist
 
+# IDE metadata
+.idea/
+
 # Temporary files
 *.tmp
 *.log
