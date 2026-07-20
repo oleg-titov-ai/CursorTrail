@@ -22,6 +22,7 @@ Package.resolved.bak
 *.xcuserstate
 *.xcbkptlist
 *.profdata
+*.profraw
 
 # IDE metadata
 .idea/
