@@ -21,6 +21,7 @@ DerivedData/
 Package.resolved.bak
 *.xcuserstate
 *.xcbkptlist
+*.profdata
 
 # IDE metadata
 .idea/
