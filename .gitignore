@@ -34,6 +34,7 @@ Package.resolved.bak
 *.orig
 *.rej
 *.bak
+*.trace
 
 # Swift Package Manager cache
 .swiftpm-cache/
