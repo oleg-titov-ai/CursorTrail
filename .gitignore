@@ -38,5 +38,8 @@ Package.resolved.bak
 *.bak
 *.trace
 
+# Coverage output
+.coverage/
+
 # Swift Package Manager cache
 .swiftpm-cache/
