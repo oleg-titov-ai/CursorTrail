@@ -40,6 +40,11 @@ swiftc -O "$SRC" \
   -framework QuartzCore \
   -o "$BIN_PATH"
 
+if [ ! -f "$BIN_PATH" ]; then
+  echo "❌ Build completed without producing $BIN_PATH"
+  exit 1
+fi
+
 cat > "$CONTENTS_DIR/Info.plist" <<PLIST
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
