@@ -30,6 +30,7 @@ Package.resolved.bak
 .idea/
 .vscode/
 .clangd/
+.fleet/
 
 # Temporary files
 *.tmp
