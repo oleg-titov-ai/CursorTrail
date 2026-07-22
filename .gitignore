@@ -29,6 +29,7 @@ Package.resolved.bak
 # IDE metadata
 .idea/
 .vscode/
+.clangd/
 
 # Temporary files
 *.tmp
