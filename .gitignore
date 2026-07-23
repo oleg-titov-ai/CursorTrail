@@ -41,6 +41,7 @@ Package.resolved.bak
 *.rej
 *.bak
 *.trace
+*.crash
 
 # Coverage output
 .coverage/
