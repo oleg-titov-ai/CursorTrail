@@ -26,6 +26,7 @@ Package.resolved.bak
 *.profdata
 *.profraw
 *.symbols.json
+*.symbols/
 
 # IDE metadata
 .idea/
