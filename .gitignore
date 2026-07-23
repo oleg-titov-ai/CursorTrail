@@ -25,6 +25,7 @@ Package.resolved.bak
 *.xcsettings
 *.profdata
 *.profraw
+*.symbols.json
 
 # IDE metadata
 .idea/
