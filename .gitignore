@@ -29,6 +29,7 @@ Package.pins
 *.symbols.json
 *.symbols/
 *.xcactivitylog
+.lldb-history
 
 # IDE metadata
 .idea/
