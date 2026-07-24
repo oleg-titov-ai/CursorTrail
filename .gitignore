@@ -50,3 +50,6 @@ Package.resolved.bak
 # Swift Package Manager cache
 .swiftpm-cache/
 .swift-dependencies/
+
+# Instruments
+*.dtps
