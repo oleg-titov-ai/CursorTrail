@@ -28,6 +28,7 @@ Package.pins
 *.profraw
 *.symbols.json
 *.symbols/
+*.xcactivitylog
 
 # IDE metadata
 .idea/
