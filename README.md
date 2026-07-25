@@ -202,3 +202,5 @@ The goal is to keep this project simple, readable and dependency-free.
 MIT License.
 
 Feel free to use, modify and share.
+
+Maintenance note: smoke-test the trail after moving the cursor between displays with different scaling settings.
