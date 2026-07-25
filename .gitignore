@@ -36,6 +36,7 @@ Package.pins
 .vscode/
 .clangd/
 .fleet/
+.sourcekit-lsp/
 
 # Temporary files
 *.tmp
