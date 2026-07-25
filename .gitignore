@@ -59,3 +59,6 @@ Package.pins
 
 # Local notarization artifacts
 notarization-info.json
+
+# Local app bundle copies
+CursorTrail-*.app/
