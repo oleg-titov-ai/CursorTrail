@@ -56,3 +56,6 @@ Package.pins
 
 # Instruments
 *.dtps
+
+# Local notarization artifacts
+notarization-info.json
