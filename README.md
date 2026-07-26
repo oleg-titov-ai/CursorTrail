@@ -204,3 +204,5 @@ MIT License.
 Feel free to use, modify and share.
 
 Maintenance note: smoke-test the trail after moving the cursor between displays with different scaling settings.
+
+Maintenance note: confirm the menu-bar icon remains usable after waking the Mac from sleep.
