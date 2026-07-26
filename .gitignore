@@ -31,6 +31,7 @@ Package.pins
 *.symbols/
 *.xcactivitylog
 .lldb-history
+.xcode.env.local
 
 # IDE metadata
 .idea/
