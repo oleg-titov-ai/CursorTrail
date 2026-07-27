@@ -11,6 +11,7 @@ CursorTrail_x86_64
 *.dSYM.zip
 *.xcarchive/
 *.xcresult/
+*.hmap
 
 # Swift / Xcode
 .build/
