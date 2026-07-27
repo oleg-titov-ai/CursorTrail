@@ -8,6 +8,7 @@ CursorTrail
 CursorTrail_arm64
 CursorTrail_x86_64
 *.dSYM/
+*.dSYM.zip
 *.xcarchive/
 *.xcresult/
 
