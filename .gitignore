@@ -67,3 +67,6 @@ notarization-info.json
 
 # Local app bundle copies
 CursorTrail-*.app/
+
+# Local performance measurements
+benchmark-results/
