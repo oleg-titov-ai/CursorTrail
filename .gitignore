@@ -34,6 +34,7 @@ Package.pins
 *.xcactivitylog
 .lldb-history
 .xcode.env.local
+*.memgraph
 
 # IDE metadata
 .idea/
