@@ -17,6 +17,7 @@ CursorTrail_x86_64
 .build/
 .swiftpm/
 DerivedData/
+xcuserdata/
 *.xcodeproj/xcuserdata/
 *.xcworkspace/xcuserdata/
 *.xcuserdatad/
