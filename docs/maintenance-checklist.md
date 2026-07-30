@@ -9,3 +9,5 @@ Verify CPU usage returns to normal idle levels when the pointer remains stationa
 Confirm the app exits cleanly without leaving a background process after disabling launch at login.
 
 Test pointer transitions between displays with different scaling settings to catch trail jumps or clipping.
+
+Launch once with a clean preferences profile before release to confirm defaults are usable and no old local state is required.
