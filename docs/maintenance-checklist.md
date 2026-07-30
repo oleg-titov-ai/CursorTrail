@@ -11,3 +11,5 @@ Confirm the app exits cleanly without leaving a background process after disabli
 Test pointer transitions between displays with different scaling settings to catch trail jumps or clipping.
 
 Launch once with a clean preferences profile before release to confirm defaults are usable and no old local state is required.
+
+Revoke and re-grant the required macOS permission once before release to verify the app recovers without reinstalling or losing preferences.
