@@ -13,3 +13,5 @@ Test pointer transitions between displays with different scaling settings to cat
 Launch once with a clean preferences profile before release to confirm defaults are usable and no old local state is required.
 
 Revoke and re-grant the required macOS permission once before release to verify the app recovers without reinstalling or losing preferences.
+
+After one sleep-and-wake cycle, confirm the trail resumes correctly and saved settings remain unchanged.
