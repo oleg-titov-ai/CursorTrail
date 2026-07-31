@@ -77,6 +77,11 @@ PLIST
 plutil -lint "$CONTENTS_DIR/Info.plist" >/dev/null
 chmod +x "$BIN_PATH"
 
+if [ ! -x "$BIN_PATH" ]; then
+  echo "❌ Built binary is not executable: $BIN_PATH"
+  exit 1
+fi
+
 echo "🔏 Ad-hoc signing..."
 codesign --force --deep --sign - "$APP_DIR" >/dev/null
 codesign --verify --deep --strict "$APP_DIR"
