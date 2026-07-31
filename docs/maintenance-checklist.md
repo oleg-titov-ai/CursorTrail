@@ -17,3 +17,5 @@ Revoke and re-grant the required macOS permission once before release to verify 
 After one sleep-and-wake cycle, confirm the trail resumes correctly and saved settings remain unchanged.
 
 Disconnect and reconnect an external display once to verify the trail restores without restarting the app.
+
+Confirm the trail remains aligned after changing the relative arrangement of connected displays.
