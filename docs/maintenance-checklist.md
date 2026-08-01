@@ -19,3 +19,5 @@ After one sleep-and-wake cycle, confirm the trail resumes correctly and saved se
 Disconnect and reconnect an external display once to verify the trail restores without restarting the app.
 
 Confirm the trail remains aligned after changing the relative arrangement of connected displays.
+
+Verify disabling and re-enabling the trail does not leave stale visual artifacts on any connected display.
