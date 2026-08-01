@@ -40,8 +40,8 @@ swiftc -O "$SRC" \
   -framework QuartzCore \
   -o "$BIN_PATH"
 
-if [ ! -f "$BIN_PATH" ]; then
-  echo "❌ Build completed without producing $BIN_PATH"
+if [ ! -s "$BIN_PATH" ]; then
+  echo "❌ Build completed without producing a non-empty $BIN_PATH"
   exit 1
 fi
 
