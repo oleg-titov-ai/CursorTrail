@@ -208,3 +208,5 @@ Maintenance note: smoke-test the trail after moving the cursor between displays 
 Maintenance note: confirm the menu-bar icon remains usable after waking the Mac from sleep.
 
 Maintenance note: verify saved opacity and trail-style settings survive an application restart.
+
+Maintenance note: confirm the trail remains visible when macOS Increase Contrast is enabled.
