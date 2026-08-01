@@ -86,5 +86,10 @@ echo "🔏 Ad-hoc signing..."
 codesign --force --deep --sign - "$APP_DIR" >/dev/null
 codesign --verify --deep --strict "$APP_DIR"
 
+if [ ! -d "$APP_DIR/Contents/MacOS" ]; then
+  echo "❌ Signed app bundle is incomplete: $APP_DIR"
+  exit 1
+fi
+
 echo "✅ Built $APP_DIR"
 echo "🚀 Run: open $APP_DIR"
