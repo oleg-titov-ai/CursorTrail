@@ -76,6 +76,10 @@ cat > "$CONTENTS_DIR/Info.plist" <<PLIST
 PLIST
 
 plutil -lint "$CONTENTS_DIR/Info.plist" >/dev/null
+if [ "$(plutil -extract CFBundleExecutable raw "$CONTENTS_DIR/Info.plist")" != "$APP_NAME" ]; then
+  echo "❌ Info.plist executable does not match $APP_NAME"
+  exit 1
+fi
 chmod +x "$BIN_PATH"
 
 if [ ! -x "$BIN_PATH" ]; then
