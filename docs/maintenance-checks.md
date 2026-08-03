@@ -8,3 +8,4 @@ Before publishing a build:
 - Verify the repository contains no generated app bundle or local settings.
 - Confirm disabling the effect releases its rendering resources promptly.
 - Verify reduced-motion settings produce a predictable, non-distracting fallback.
+- Confirm launch-at-login behavior matches the visible preference after an app update.
