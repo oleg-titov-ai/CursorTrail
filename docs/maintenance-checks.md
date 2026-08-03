@@ -9,3 +9,4 @@ Before publishing a build:
 - Confirm disabling the effect releases its rendering resources promptly.
 - Verify reduced-motion settings produce a predictable, non-distracting fallback.
 - Confirm launch-at-login behavior matches the visible preference after an app update.
+- Check that quitting the app leaves no lingering background process.
