@@ -12,3 +12,4 @@ Before publishing a build:
 - Check that quitting the app leaves no lingering background process.
 - Verify denied accessibility or screen permissions produce a clear, reversible fallback.
 - Confirm resetting preferences restores documented defaults without requiring a reinstall.
+- Confirm switching macOS Spaces does not leave stale trail artifacts behind.
