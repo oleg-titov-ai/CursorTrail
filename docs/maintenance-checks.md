@@ -10,3 +10,4 @@ Before publishing a build:
 - Verify reduced-motion settings produce a predictable, non-distracting fallback.
 - Confirm launch-at-login behavior matches the visible preference after an app update.
 - Check that quitting the app leaves no lingering background process.
+- Verify denied accessibility or screen permissions produce a clear, reversible fallback.
