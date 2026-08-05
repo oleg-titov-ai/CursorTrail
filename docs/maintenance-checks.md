@@ -13,3 +13,4 @@ Before publishing a build:
 - Verify denied accessibility or screen permissions produce a clear, reversible fallback.
 - Confirm resetting preferences restores documented defaults without requiring a reinstall.
 - Confirm switching macOS Spaces does not leave stale trail artifacts behind.
+- Verify sleep and wake do not duplicate the renderer or menu-bar item.
