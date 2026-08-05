@@ -78,3 +78,6 @@ benchmark-results/
 
 # Local screen recordings
 screen-recordings/
+
+# Local accessibility test captures
+accessibility-test-captures/
