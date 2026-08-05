@@ -75,3 +75,6 @@ CursorTrail-*.app/
 
 # Local performance measurements
 benchmark-results/
+
+# Local screen recordings
+screen-recordings/
