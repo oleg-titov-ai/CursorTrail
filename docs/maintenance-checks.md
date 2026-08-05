@@ -14,3 +14,4 @@ Before publishing a build:
 - Confirm resetting preferences restores documented defaults without requiring a reinstall.
 - Confirm switching macOS Spaces does not leave stale trail artifacts behind.
 - Verify sleep and wake do not duplicate the renderer or menu-bar item.
+- Confirm disconnecting an external display does not leave an off-screen overlay or stale renderer.
