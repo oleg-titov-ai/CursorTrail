@@ -84,3 +84,6 @@ accessibility-test-captures/
 
 # Local visual regression captures
 visual-regression-captures/
+
+# Local launch diagnostics
+launch-diagnostics/
