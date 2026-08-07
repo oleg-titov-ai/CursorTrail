@@ -3,6 +3,7 @@
 .AppleDouble
 *.ips
 *.spindump
+*.tracev3
 
 # Build products
 *.app
