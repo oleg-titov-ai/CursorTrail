@@ -210,3 +210,5 @@ Maintenance note: confirm the menu-bar icon remains usable after waking the Mac 
 Maintenance note: verify saved opacity and trail-style settings survive an application restart.
 
 Maintenance note: confirm the trail remains visible when macOS Increase Contrast is enabled.
+
+Maintenance note: verify the documented uninstall steps remove both the app bundle and saved settings cleanly.
