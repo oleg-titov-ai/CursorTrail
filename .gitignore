@@ -88,3 +88,6 @@ visual-regression-captures/
 
 # Local launch diagnostics
 launch-diagnostics/
+
+# Local release staging
+release-staging/
