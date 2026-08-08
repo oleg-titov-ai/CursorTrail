@@ -71,6 +71,7 @@ compile_commands.json
 
 # Local notarization artifacts
 notarization-info.json
+signing-logs/
 
 # Local app bundle copies
 CursorTrail-*.app/
