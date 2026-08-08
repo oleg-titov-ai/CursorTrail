@@ -93,3 +93,6 @@ launch-diagnostics/
 
 # Local release staging
 release-staging/
+
+# Local release note drafts
+release-notes-drafts/
