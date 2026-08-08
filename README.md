@@ -212,3 +212,5 @@ Maintenance note: verify saved opacity and trail-style settings survive an appli
 Maintenance note: confirm the trail remains visible when macOS Increase Contrast is enabled.
 
 Maintenance note: verify the documented uninstall steps remove both the app bundle and saved settings cleanly.
+
+Maintenance note: verify connecting or disconnecting an external display does not leave stale trail overlays on removed screens.
