@@ -214,3 +214,5 @@ Maintenance note: confirm the trail remains visible when macOS Increase Contrast
 Maintenance note: verify the documented uninstall steps remove both the app bundle and saved settings cleanly.
 
 Maintenance note: verify connecting or disconnecting an external display does not leave stale trail overlays on removed screens.
+
+Maintenance note: confirm disabling the trail clears any visible overlay immediately without restarting the app.
