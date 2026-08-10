@@ -216,3 +216,5 @@ Maintenance note: verify the documented uninstall steps remove both the app bund
 Maintenance note: verify connecting or disconnecting an external display does not leave stale trail overlays on removed screens.
 
 Maintenance note: confirm disabling the trail clears any visible overlay immediately without restarting the app.
+
+Maintenance note: verify changing the primary display while the app is running keeps the trail aligned with the cursor.
