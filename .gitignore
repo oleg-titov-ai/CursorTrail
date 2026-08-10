@@ -90,6 +90,7 @@ visual-regression-captures/
 
 # Local launch diagnostics
 launch-diagnostics/
+crash-reproduction-captures/
 
 # Local release staging
 release-staging/
