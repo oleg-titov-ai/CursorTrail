@@ -220,3 +220,5 @@ Maintenance note: confirm disabling the trail clears any visible overlay immedia
 Maintenance note: verify changing the primary display while the app is running keeps the trail aligned with the cursor.
 
 Maintenance note: confirm cursor alignment remains correct after changing display scaling without restarting the app.
+
+Maintenance note: smoke-test entering and leaving fullscreen Spaces to confirm overlays recover correctly.
