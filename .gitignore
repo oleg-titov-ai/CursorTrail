@@ -92,6 +92,9 @@ visual-regression-captures/
 launch-diagnostics/
 crash-reproduction-captures/
 
+# Local display test captures
+display-test-captures/
+
 # Local release staging
 release-staging/
 
