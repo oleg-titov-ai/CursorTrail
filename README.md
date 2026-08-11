@@ -222,3 +222,5 @@ Maintenance note: verify changing the primary display while the app is running k
 Maintenance note: confirm cursor alignment remains correct after changing display scaling without restarting the app.
 
 Maintenance note: smoke-test entering and leaving fullscreen Spaces to confirm overlays recover correctly.
+
+Maintenance note: verify the menu-bar controls remain responsive after a display sleep/wake cycle.
