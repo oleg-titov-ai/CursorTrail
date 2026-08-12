@@ -230,3 +230,5 @@ Maintenance note: when Launch at Login is implemented, verify it starts only one
 Maintenance note: confirm a clean build still succeeds after updating macOS Command Line Tools before publishing a release.
 
 Maintenance note: verify quitting from the menu bar removes all overlay windows immediately and leaves no visible trail artifacts.
+
+Maintenance note: verify switching rapidly between multiple Spaces does not leave duplicate overlay windows behind.
