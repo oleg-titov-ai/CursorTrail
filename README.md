@@ -226,3 +226,5 @@ Maintenance note: smoke-test entering and leaving fullscreen Spaces to confirm o
 Maintenance note: verify the menu-bar controls remain responsive after a display sleep/wake cycle.
 
 Maintenance note: when Launch at Login is implemented, verify it starts only one app instance and preserves saved settings.
+
+Maintenance note: confirm a clean build still succeeds after updating macOS Command Line Tools before publishing a release.
