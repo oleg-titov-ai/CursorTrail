@@ -224,3 +224,5 @@ Maintenance note: confirm cursor alignment remains correct after changing displa
 Maintenance note: smoke-test entering and leaving fullscreen Spaces to confirm overlays recover correctly.
 
 Maintenance note: verify the menu-bar controls remain responsive after a display sleep/wake cycle.
+
+Maintenance note: when Launch at Login is implemented, verify it starts only one app instance and preserves saved settings.
