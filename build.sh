@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-# Build output is local and intentionally excluded from version control.
+# Build output is local, excluded from version control, and replaced on every clean build.
 APP_NAME="CursorTrail"
 BUNDLE_ID="com.local.cursortrail"
 SRC="CursorTrail.swift"
