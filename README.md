@@ -232,3 +232,5 @@ Maintenance note: confirm a clean build still succeeds after updating macOS Comm
 Maintenance note: verify quitting from the menu bar removes all overlay windows immediately and leaves no visible trail artifacts.
 
 Maintenance note: verify switching rapidly between multiple Spaces does not leave duplicate overlay windows behind.
+
+Maintenance note: verify saved trail settings still apply correctly after restarting the app with a different display arrangement.
