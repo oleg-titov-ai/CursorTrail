@@ -238,3 +238,5 @@ Maintenance note: verify saved trail settings still apply correctly after restar
 Maintenance note: regression-test connecting a second display after launch and confirm no duplicate trail overlays are created.
 
 Maintenance note: verify disconnecting and reconnecting the same external display rebuilds overlay state without leaving an orphaned window.
+
+Maintenance note: verify rearranging display positions in System Settings keeps overlay coordinates aligned without restarting the app.
