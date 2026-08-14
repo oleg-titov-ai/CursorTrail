@@ -234,3 +234,5 @@ Maintenance note: verify quitting from the menu bar removes all overlay windows 
 Maintenance note: verify switching rapidly between multiple Spaces does not leave duplicate overlay windows behind.
 
 Maintenance note: verify saved trail settings still apply correctly after restarting the app with a different display arrangement.
+
+Maintenance note: regression-test connecting a second display after launch and confirm no duplicate trail overlays are created.
