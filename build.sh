@@ -80,6 +80,10 @@ if [ "$(plutil -extract CFBundleExecutable raw "$CONTENTS_DIR/Info.plist")" != "
   echo "❌ Info.plist executable does not match $APP_NAME"
   exit 1
 fi
+if [ "$(plutil -extract CFBundleIdentifier raw "$CONTENTS_DIR/Info.plist")" != "$BUNDLE_ID" ]; then
+  echo "❌ Info.plist bundle identifier does not match $BUNDLE_ID"
+  exit 1
+fi
 chmod +x "$BIN_PATH"
 
 if [ ! -x "$BIN_PATH" ]; then
