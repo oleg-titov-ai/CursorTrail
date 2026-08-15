@@ -6,6 +6,7 @@
 *.tracev3
 
 # Build products
+build/
 *.app
 CursorTrail
 CursorTrail_arm64
