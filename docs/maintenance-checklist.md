@@ -23,3 +23,5 @@ Confirm the trail remains aligned after changing the relative arrangement of con
 Verify disabling and re-enabling the trail does not leave stale visual artifacts on any connected display.
 
 Confirm rapid pointer movement does not cause unbounded trail growth or sustained CPU usage after movement stops.
+
+Verify repeated enable/disable cycles do not create duplicate overlay windows or steadily increase idle CPU usage.
