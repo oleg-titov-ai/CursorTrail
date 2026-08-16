@@ -242,3 +242,5 @@ Maintenance note: verify disconnecting and reconnecting the same external displa
 Maintenance note: verify rearranging display positions in System Settings keeps overlay coordinates aligned without restarting the app.
 
 Maintenance note: after display hot-plug events, confirm the saved trail style and opacity remain unchanged while overlays are rebuilt.
+
+Maintenance note: verify repeated enable/disable cycles do not accumulate hidden overlay windows or increase idle CPU usage.
