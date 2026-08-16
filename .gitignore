@@ -102,3 +102,6 @@ release-staging/
 
 # Local release note drafts
 release-notes-drafts/
+
+# Local Swift diagnostics
+swift-diagnostics/
