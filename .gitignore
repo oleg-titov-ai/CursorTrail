@@ -106,3 +106,4 @@ release-notes-drafts/
 
 # Local Swift diagnostics
 swift-diagnostics/
+package-diagnostics/
