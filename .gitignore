@@ -97,6 +97,7 @@ crash-reproduction-captures/
 # Local display test captures
 display-test-captures/
 display-layout-snapshots/
+frame-diagnostics/
 
 # Local release staging
 release-staging/
