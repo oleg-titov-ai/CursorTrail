@@ -244,3 +244,5 @@ Maintenance note: verify rearranging display positions in System Settings keeps 
 Maintenance note: after display hot-plug events, confirm the saved trail style and opacity remain unchanged while overlays are rebuilt.
 
 Maintenance note: verify repeated enable/disable cycles do not accumulate hidden overlay windows or increase idle CPU usage.
+
+Maintenance note: verify quitting and relaunching the app restores exactly one menu-bar item and no stale overlay windows.
