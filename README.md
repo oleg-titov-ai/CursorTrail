@@ -248,3 +248,5 @@ Maintenance note: verify repeated enable/disable cycles do not accumulate hidden
 Maintenance note: verify quitting and relaunching the app restores exactly one menu-bar item and no stale overlay windows.
 
 Maintenance note: after waking from sleep with a changed monitor layout, verify overlays are rebuilt once and remain aligned to the active displays.
+
+Maintenance note: after disconnecting the primary external display, confirm the trail migrates cleanly to the remaining active screen without stale coordinates.
