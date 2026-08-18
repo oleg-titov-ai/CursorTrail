@@ -250,3 +250,5 @@ Maintenance note: verify quitting and relaunching the app restores exactly one m
 Maintenance note: after waking from sleep with a changed monitor layout, verify overlays are rebuilt once and remain aligned to the active displays.
 
 Maintenance note: after disconnecting the primary external display, confirm the trail migrates cleanly to the remaining active screen without stale coordinates.
+
+Maintenance note: verify launching with only one active display creates exactly one correctly aligned overlay and no duplicate window state.
