@@ -98,6 +98,7 @@ crash-reproduction-captures/
 display-test-captures/
 display-layout-snapshots/
 frame-diagnostics/
+display-hotplug-diagnostics/
 
 # Local release staging
 release-staging/
