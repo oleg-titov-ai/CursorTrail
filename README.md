@@ -252,3 +252,5 @@ Maintenance note: after waking from sleep with a changed monitor layout, verify 
 Maintenance note: after disconnecting the primary external display, confirm the trail migrates cleanly to the remaining active screen without stale coordinates.
 
 Maintenance note: verify launching with only one active display creates exactly one correctly aligned overlay and no duplicate window state.
+
+Maintenance note: after reconnecting displays in a different order, confirm exactly one overlay is recreated per active screen and old screen references are discarded.
