@@ -7,3 +7,4 @@
 - 2026-08-21: Verify rapid display connect/disconnect cycles do not leave orphaned overlays or increase the steady-state overlay count after the layout settles.
 - 2026-08-21: Verify temporarily disabling and re-enabling the trail after a display topology change rebuilds only the overlays required for the currently active screens.
 - 2026-08-21: Verify quitting the app while an external display is disconnected does not leave an invisible overlay process or stale window state for the next launch.
+- 2026-08-21: Recheck pointer alignment after moving the menu bar to a different display so overlay coordinates remain correct without requiring an app restart.
