@@ -9,3 +9,4 @@
 - 2026-08-21: Verify quitting the app while an external display is disconnected does not leave an invisible overlay process or stale window state for the next launch.
 - 2026-08-21: Recheck pointer alignment after moving the menu bar to a different display so overlay coordinates remain correct without requiring an app restart.
 - 2026-08-22: Keep one single-display smoke check in the maintenance notes so multi-monitor fixes do not regress the simplest launch, enable, disable, and quit path.
+- 2026-08-22: Verify launching while multiple displays are already connected creates exactly one overlay per active screen before any hot-plug events occur.
