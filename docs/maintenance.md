@@ -14,3 +14,4 @@
 - 2026-08-22: Recheck that the trail remains usable with macOS Reduce Motion enabled and that disabling the effect still removes overlays immediately.
 - 2026-08-23: Verify a relaunch after changing display arrangement restores overlays only for the currently active screens and does not reuse stale coordinates from the previous layout.
 - 2026-08-23: Verify switching the primary display while the app is running keeps exactly one overlay per active screen and preserves pointer alignment without requiring a relaunch.
+- 2026-08-23: Keep one regression baseline for a single-display launch followed by external-display attachment so overlay creation and pointer alignment remain easy to compare after topology changes.
