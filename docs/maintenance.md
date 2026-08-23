@@ -12,3 +12,4 @@
 - 2026-08-22: Verify launching while multiple displays are already connected creates exactly one overlay per active screen before any hot-plug events occur.
 - 2026-08-22: After rearranging displays without disconnecting them, verify existing overlays realign to the new coordinates instead of being duplicated or left at stale positions.
 - 2026-08-22: Recheck that the trail remains usable with macOS Reduce Motion enabled and that disabling the effect still removes overlays immediately.
+- 2026-08-23: Verify a relaunch after changing display arrangement restores overlays only for the currently active screens and does not reuse stale coordinates from the previous layout.
