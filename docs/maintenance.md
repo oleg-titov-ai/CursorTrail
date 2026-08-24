@@ -18,3 +18,4 @@
 - 2026-08-23: Verify removing the external display while the trail is active immediately removes its overlay and preserves correct alignment on the remaining screen without restarting the app.
 - 2026-08-24: Verify changing display rotation while the app is running realigns the existing overlay without creating a duplicate or requiring a relaunch.
 - 2026-08-24: Verify toggling the trail immediately after a display wakes does not race overlay recreation or leave more than one overlay on the recovered screen.
+- 2026-08-24: Verify a display that sleeps independently while another remains active removes or suspends only its own overlay and restores exactly one aligned overlay when it wakes.
