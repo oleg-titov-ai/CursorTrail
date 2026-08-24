@@ -16,3 +16,4 @@
 - 2026-08-23: Verify switching the primary display while the app is running keeps exactly one overlay per active screen and preserves pointer alignment without requiring a relaunch.
 - 2026-08-23: Keep one regression baseline for a single-display launch followed by external-display attachment so overlay creation and pointer alignment remain easy to compare after topology changes.
 - 2026-08-23: Verify removing the external display while the trail is active immediately removes its overlay and preserves correct alignment on the remaining screen without restarting the app.
+- 2026-08-24: Verify changing display rotation while the app is running realigns the existing overlay without creating a duplicate or requiring a relaunch.
