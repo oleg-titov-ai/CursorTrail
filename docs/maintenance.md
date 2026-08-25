@@ -22,3 +22,4 @@
 - 2026-08-24: Verify moving the pointer rapidly across a display boundary does not leave a stale trail segment or trigger duplicate overlay creation on either screen.
 - 2026-08-25: Verify entering and leaving a full-screen Space on one display keeps overlay count stable and restores pointer alignment without creating a stale overlay on the other active displays.
 - 2026-08-25: Verify returning from a temporary mirror/unmirror display configuration rebuilds only the overlays required for the final active topology and preserves cursor alignment.
+- 2026-08-25: Verify disconnecting the final external display leaves exactly one correctly aligned overlay on the built-in display and no retained window state for the removed screen.
