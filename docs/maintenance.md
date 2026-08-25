@@ -20,3 +20,4 @@
 - 2026-08-24: Verify toggling the trail immediately after a display wakes does not race overlay recreation or leave more than one overlay on the recovered screen.
 - 2026-08-24: Verify a display that sleeps independently while another remains active removes or suspends only its own overlay and restores exactly one aligned overlay when it wakes.
 - 2026-08-24: Verify moving the pointer rapidly across a display boundary does not leave a stale trail segment or trigger duplicate overlay creation on either screen.
+- 2026-08-25: Verify entering and leaving a full-screen Space on one display keeps overlay count stable and restores pointer alignment without creating a stale overlay on the other active displays.
