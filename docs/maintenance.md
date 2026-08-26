@@ -27,3 +27,4 @@
 - 2026-08-26: Verify switching macOS display refresh rate while the trail is active does not duplicate overlays or leave visible lag after the new mode settles.
 - 2026-08-26: Verify rapidly moving a display between mirrored and extended modes leaves exactly one overlay per final active screen and no stale geometry state.
 - 2026-08-26: After any display-topology change settles, verify overlay count exactly matches active screens before accepting cursor-alignment results.
+- 2026-08-26: Verify repeated no-op display topology notifications do not recreate overlays or change their count when the active screen geometry is unchanged.
