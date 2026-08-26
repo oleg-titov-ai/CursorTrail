@@ -24,3 +24,4 @@
 - 2026-08-25: Verify returning from a temporary mirror/unmirror display configuration rebuilds only the overlays required for the final active topology and preserves cursor alignment.
 - 2026-08-25: Verify disconnecting the final external display leaves exactly one correctly aligned overlay on the built-in display and no retained window state for the removed screen.
 - 2026-08-25: After changing display arrangement and scale in one session, verify existing overlays realign in place and the final overlay count still matches the active display count.
+- 2026-08-26: Verify switching macOS display refresh rate while the trail is active does not duplicate overlays or leave visible lag after the new mode settles.
