@@ -31,3 +31,4 @@
 - 2026-08-27: Verify changing only display color profile or HDR state does not recreate overlays when screen geometry is unchanged, while cursor alignment and overlay count remain stable.
 - 2026-08-27: Verify a burst of equivalent display-change notifications is effectively debounced so the final topology produces one stable overlay set without transient duplicates.
 - 2026-08-27: Verify a real geometry change refreshes only affected overlays while unchanged displays retain one stable overlay and correct cursor alignment.
+- 2026-08-27: Verify toggling the trail while display topology is stable does not change overlay ownership or leave hidden windows after the effect returns to its prior state.
