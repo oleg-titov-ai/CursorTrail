@@ -34,3 +34,4 @@
 - 2026-08-27: Verify toggling the trail while display topology is stable does not change overlay ownership or leave hidden windows after the effect returns to its prior state.
 - 2026-08-28: Verify disconnecting a display while the pointer is on that screen clears its final trail state immediately and leaves no ghost segment or stale overlay on the remaining desktop.
 - 2026-08-28: Verify a removed display releases its overlay resources before the topology settles, so rapid reconnects cannot reuse stale geometry or duplicate an existing screen overlay.
+- 2026-08-28: Verify moving an active display between portrait and landscape orientation twice in one session returns overlay geometry to the original alignment without accumulating stale state.
