@@ -35,3 +35,4 @@
 - 2026-08-28: Verify disconnecting a display while the pointer is on that screen clears its final trail state immediately and leaves no ghost segment or stale overlay on the remaining desktop.
 - 2026-08-28: Verify a removed display releases its overlay resources before the topology settles, so rapid reconnects cannot reuse stale geometry or duplicate an existing screen overlay.
 - 2026-08-28: Verify moving an active display between portrait and landscape orientation twice in one session returns overlay geometry to the original alignment without accumulating stale state.
+- 2026-08-28: Keep one dock/undock regression check that returns to the original display layout and confirms overlay count and cursor alignment match the pre-dock baseline without restarting the app.
