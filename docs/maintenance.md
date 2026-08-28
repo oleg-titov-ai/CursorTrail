@@ -32,3 +32,4 @@
 - 2026-08-27: Verify a burst of equivalent display-change notifications is effectively debounced so the final topology produces one stable overlay set without transient duplicates.
 - 2026-08-27: Verify a real geometry change refreshes only affected overlays while unchanged displays retain one stable overlay and correct cursor alignment.
 - 2026-08-27: Verify toggling the trail while display topology is stable does not change overlay ownership or leave hidden windows after the effect returns to its prior state.
+- 2026-08-28: Verify disconnecting a display while the pointer is on that screen clears its final trail state immediately and leaves no ghost segment or stale overlay on the remaining desktop.
