@@ -37,3 +37,4 @@
 - 2026-08-28: Verify moving an active display between portrait and landscape orientation twice in one session returns overlay geometry to the original alignment without accumulating stale state.
 - 2026-08-28: Keep one dock/undock regression check that returns to the original display layout and confirms overlay count and cursor alignment match the pre-dock baseline without restarting the app.
 - 2026-08-29: Verify switching between two saved display arrangements does not accumulate hidden overlays and restores cursor alignment once the final screen geometry stabilizes.
+- 2026-08-29: Verify inactive display identifiers are removed from overlay bookkeeping after topology changes so later reconnects create exactly one fresh overlay for the returning screen.
