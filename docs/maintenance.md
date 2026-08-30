@@ -41,3 +41,4 @@
 - 2026-08-29: Verify a temporary screen-resolution probe does not leave stale geometry cached after reverting to the original display mode.
 - 2026-08-29: Verify each overlay remains associated with exactly one active display identifier after topology changes, preventing stale ownership from surviving a reconnect.
 - 2026-08-30: Verify an overlay recreated after a transient display loss inherits only the current screen geometry and effect settings, not stale coordinates or visibility state from the removed display instance.
+- 2026-08-30: Verify disabling the trail after a topology change clears overlay bookkeeping as well as visible windows so the next enable starts only from the current active display set.
