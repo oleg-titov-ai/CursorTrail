@@ -45,3 +45,4 @@
 - 2026-08-30: Verify repeated no-op topology refreshes preserve the same overlay instances when screen identifiers and geometry are unchanged, avoiding unnecessary window churn.
 - 2026-08-30: Verify any overlay removed during topology reconciliation is also removed from inactive bookkeeping before a later reconnect can recreate it.
 - 2026-08-31: Verify a display reconnect using the same system identifier refreshes geometry from the current screen state instead of reviving cached coordinates from the prior attachment.
+- 2026-08-31: Verify changing only the active display order without changing geometry does not create duplicate overlays or alter per-screen trail ownership.
