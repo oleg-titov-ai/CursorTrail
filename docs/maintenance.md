@@ -44,3 +44,4 @@
 - 2026-08-30: Verify disabling the trail after a topology change clears overlay bookkeeping as well as visible windows so the next enable starts only from the current active display set.
 - 2026-08-30: Verify repeated no-op topology refreshes preserve the same overlay instances when screen identifiers and geometry are unchanged, avoiding unnecessary window churn.
 - 2026-08-30: Verify any overlay removed during topology reconciliation is also removed from inactive bookkeeping before a later reconnect can recreate it.
+- 2026-08-31: Verify a display reconnect using the same system identifier refreshes geometry from the current screen state instead of reviving cached coordinates from the prior attachment.
