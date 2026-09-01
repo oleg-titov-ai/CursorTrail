@@ -48,3 +48,4 @@
 - 2026-08-31: Verify changing only the active display order without changing geometry does not create duplicate overlays or alter per-screen trail ownership.
 - 2026-08-31: Verify two identical topology reconciliations preserve the same active-display-to-overlay ownership mapping when screen identifiers and geometry are unchanged.
 - 2026-08-31: Verify removing and immediately re-adding the same display produces one fresh overlay bound to current geometry, with no retained trail segments from the prior attachment.
+- 2026-09-01: Verify a stable single-display session does not recreate its overlay during unrelated preference changes when screen geometry and trail enablement are unchanged.
