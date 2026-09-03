@@ -50,3 +50,4 @@
 - 2026-08-31: Verify removing and immediately re-adding the same display produces one fresh overlay bound to current geometry, with no retained trail segments from the prior attachment.
 - 2026-09-01: Verify a stable single-display session does not recreate its overlay during unrelated preference changes when screen geometry and trail enablement are unchanged.
 - 2026-09-02: Verify switching the trail style or opacity while display topology is unchanged updates existing overlays in place without changing overlay count or display ownership.
+- 2026-09-03: Verify changing a non-visual preference while the trail is disabled does not create overlays, and re-enabling creates exactly one overlay per current active display.
