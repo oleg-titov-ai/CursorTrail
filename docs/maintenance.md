@@ -55,3 +55,4 @@
 - 2026-09-03: Verify resetting trail opacity to its default updates existing overlays in place and preserves overlay count, display ownership, and current geometry.
 - 2026-09-04: Verify resetting all trail preferences to defaults while topology is stable updates existing rendering state in place without changing overlay ownership, count, or geometry.
 - 2026-09-04: Verify toggling trail visibility during a stable multi-display session preserves one overlay per display and does not reset current geometry or ownership mappings.
+- 2026-09-04: Verify reloading persisted trail preferences while display topology is unchanged updates rendering values in place without creating duplicate overlays or changing display ownership.
