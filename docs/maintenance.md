@@ -53,3 +53,4 @@
 - 2026-09-03: Verify changing a non-visual preference while the trail is disabled does not create overlays, and re-enabling creates exactly one overlay per current active display.
 - 2026-09-03: Verify changing trail length while topology is stable updates rendering state without resetting per-display ownership or leaving stale trail segments.
 - 2026-09-03: Verify resetting trail opacity to its default updates existing overlays in place and preserves overlay count, display ownership, and current geometry.
+- 2026-09-04: Verify resetting all trail preferences to defaults while topology is stable updates existing rendering state in place without changing overlay ownership, count, or geometry.
