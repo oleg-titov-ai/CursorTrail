@@ -57,3 +57,4 @@
 - 2026-09-04: Verify toggling trail visibility during a stable multi-display session preserves one overlay per display and does not reset current geometry or ownership mappings.
 - 2026-09-04: Verify reloading persisted trail preferences while display topology is unchanged updates rendering values in place without creating duplicate overlays or changing display ownership.
 - 2026-09-05: Verify changing trail color while display topology is stable updates existing overlays in place without altering overlay count, ownership, or cursor alignment.
+- 2026-09-05: Verify changing trail width while display topology is stable updates rendering in place without changing overlay count, display ownership, or cursor alignment.
