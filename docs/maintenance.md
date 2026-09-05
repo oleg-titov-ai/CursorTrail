@@ -58,3 +58,4 @@
 - 2026-09-04: Verify reloading persisted trail preferences while display topology is unchanged updates rendering values in place without creating duplicate overlays or changing display ownership.
 - 2026-09-05: Verify changing trail color while display topology is stable updates existing overlays in place without altering overlay count, ownership, or cursor alignment.
 - 2026-09-05: Verify changing trail width while display topology is stable updates rendering in place without changing overlay count, display ownership, or cursor alignment.
+- 2026-09-05: Verify changing trail fade duration while display topology is stable updates existing rendering state in place without changing overlay count, display ownership, geometry, or cursor alignment.
