@@ -61,3 +61,4 @@
 - 2026-09-05: Verify changing trail fade duration while display topology is stable updates existing rendering state in place without changing overlay count, display ownership, geometry, or cursor alignment.
 - 2026-09-05: Verify opening and closing the preferences window while the trail is active does not recreate overlays, change display ownership, or disturb cursor alignment on a stable topology.
 - 2026-09-06: Verify changing the macOS accessibility cursor size while display topology is stable preserves one overlay per display and correct pointer alignment without recreating unrelated overlays.
+- 2026-09-06: Verify switching macOS between light and dark appearance while the trail is active updates any appearance-derived rendering in place without changing overlay count, display ownership, geometry, or cursor alignment.
