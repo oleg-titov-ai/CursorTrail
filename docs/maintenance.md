@@ -63,3 +63,4 @@
 - 2026-09-06: Verify changing the macOS accessibility cursor size while display topology is stable preserves one overlay per display and correct pointer alignment without recreating unrelated overlays.
 - 2026-09-06: Verify switching macOS between light and dark appearance while the trail is active updates any appearance-derived rendering in place without changing overlay count, display ownership, geometry, or cursor alignment.
 - 2026-09-06: Verify toggling macOS Reduce Transparency while the trail is active updates any transparency-dependent rendering in place without changing overlay count, display ownership, geometry, or cursor alignment.
+- 2026-09-06: Verify toggling macOS Increase Contrast while the trail is active updates any contrast-dependent rendering in place without changing overlay count, display ownership, geometry, or cursor alignment.
