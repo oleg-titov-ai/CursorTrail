@@ -64,3 +64,4 @@
 - 2026-09-06: Verify switching macOS between light and dark appearance while the trail is active updates any appearance-derived rendering in place without changing overlay count, display ownership, geometry, or cursor alignment.
 - 2026-09-06: Verify toggling macOS Reduce Transparency while the trail is active updates any transparency-dependent rendering in place without changing overlay count, display ownership, geometry, or cursor alignment.
 - 2026-09-06: Verify toggling macOS Increase Contrast while the trail is active updates any contrast-dependent rendering in place without changing overlay count, display ownership, geometry, or cursor alignment.
+- 2026-09-07: Verify app activation and deactivation on a stable display topology does not recreate overlays, change display ownership, or disturb cursor alignment while the trail remains enabled.
