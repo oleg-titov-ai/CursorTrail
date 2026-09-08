@@ -65,3 +65,4 @@
 - 2026-09-06: Verify toggling macOS Reduce Transparency while the trail is active updates any transparency-dependent rendering in place without changing overlay count, display ownership, geometry, or cursor alignment.
 - 2026-09-06: Verify toggling macOS Increase Contrast while the trail is active updates any contrast-dependent rendering in place without changing overlay count, display ownership, geometry, or cursor alignment.
 - 2026-09-07: Verify app activation and deactivation on a stable display topology does not recreate overlays, change display ownership, or disturb cursor alignment while the trail remains enabled.
+- 2026-09-08: Verify macOS fast user switching or session lock/unlock does not leave duplicate or stale overlays, and the active session restores exactly one correctly aligned overlay per display.
