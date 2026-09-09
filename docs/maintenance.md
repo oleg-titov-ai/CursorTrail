@@ -67,3 +67,4 @@
 - 2026-09-07: Verify app activation and deactivation on a stable display topology does not recreate overlays, change display ownership, or disturb cursor alignment while the trail remains enabled.
 - 2026-09-08: Verify macOS fast user switching or session lock/unlock does not leave duplicate or stale overlays, and the active session restores exactly one correctly aligned overlay per display.
 - 2026-09-08: Verify rapid Mission Control or Space switching on a stable display topology preserves existing overlay ownership and count without leaving stale trail segments or misaligned cursor coordinates.
+- 2026-09-09: Verify toggling macOS Stage Manager while the trail is enabled preserves one overlay per active display and correct cursor alignment without recreating unrelated overlays or retaining stale trail geometry.
