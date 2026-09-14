@@ -70,3 +70,4 @@
 - 2026-09-08: Verify macOS fast user switching or session lock/unlock does not leave duplicate or stale overlays, and the active session restores exactly one correctly aligned overlay per display.
 - 2026-09-08: Verify rapid Mission Control or Space switching on a stable display topology preserves existing overlay ownership and count without leaving stale trail segments or misaligned cursor coordinates.
 - 2026-09-09: Verify toggling macOS Stage Manager while the trail is enabled preserves one overlay per active display and correct cursor alignment without recreating unrelated overlays or retaining stale trail geometry.
+- 2026-09-14: Verify toggling Dock or menu-bar auto-hide on a stable display topology does not shift overlay geometry or cursor coordinates, since the trail should remain aligned to full screen bounds rather than desktop chrome changes.
