@@ -1,5 +1,7 @@
 # Maintenance
 
+> Current maintenance focus (2026-09-14): keep one correctly aligned overlay per active display, with preference and session changes updating in place instead of leaving stale ownership or geometry.
+
 - 2026-08-19: Keep display-topology regression checks focused on one overlay per active screen, correct cursor alignment after hot-plug/rearrangement, and no stale overlays after quit or disable.
 - 2026-08-20: Recheck cursor alignment after changing display scale or resolution so the trail remains visually correct across common macOS display configurations.
 - 2026-08-20: Verify enabling and disabling the trail repeatedly does not create duplicate overlays or leave persistent windows after the feature is turned off.
