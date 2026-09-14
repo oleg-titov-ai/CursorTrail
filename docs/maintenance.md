@@ -1,6 +1,6 @@
 # Maintenance
 
-> Current maintenance focus (2026-09-14): keep one correctly aligned overlay per active display, with preference and session changes updating in place instead of leaving stale ownership or geometry.
+> Current maintenance focus (2026-09-14): separate display topology from desktop-chrome, session, and preference changes so non-topology events update rendering in place while preserving one correctly aligned overlay per active display.
 
 - 2026-08-19: Keep display-topology regression checks focused on one overlay per active screen, correct cursor alignment after hot-plug/rearrangement, and no stale overlays after quit or disable.
 - 2026-08-20: Recheck cursor alignment after changing display scale or resolution so the trail remains visually correct across common macOS display configurations.
