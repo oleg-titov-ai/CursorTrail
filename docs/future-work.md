@@ -7,7 +7,7 @@ Small improvements to consider next.
 - Link documentation from the README.
 - Add a screenshot of the menu controls.
 - Add a short visual demo.
-- Document expected app behavior.
+- Document stable overlay behavior across display and session changes.
 
 ## Medium Term
 
