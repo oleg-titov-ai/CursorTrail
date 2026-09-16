@@ -258,3 +258,5 @@ Maintenance note: after reconnecting displays in a different order, confirm exac
 Maintenance note: verify stale display callbacks from an older screen snapshot cannot recreate or realign overlays after a newer topology has settled.
 
 Maintenance note: coalesce duplicate display-change notifications so one settled topology produces one reconciliation pass and one stable overlay set.
+
+Maintenance note: after a coalesced display refresh, verify overlay count equals the current active-screen count before accepting cursor-alignment results.
