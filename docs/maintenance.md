@@ -1,6 +1,6 @@
 # Maintenance
 
-> Current maintenance focus (2026-09-15): coalesce display-change notifications and reconcile overlays from the latest stable screen snapshot, separating real topology changes from desktop-chrome, session, accessibility, and preference events so one aligned overlay remains per active display without intermediate churn.
+> Current maintenance focus (2026-09-16): reconcile display changes from the latest stable screen snapshot on one serialized UI path, coalescing equivalent notifications and ignoring stale generations so disable/quit, session, accessibility, desktop-chrome, or preference events cannot recreate or misalign overlays after a newer topology has settled.
 
 - 2026-08-19: Keep display-topology regression checks focused on one overlay per active screen, correct cursor alignment after hot-plug/rearrangement, and no stale overlays after quit or disable.
 - 2026-08-20: Recheck cursor alignment after changing display scale or resolution so the trail remains visually correct across common macOS display configurations.
