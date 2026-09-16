@@ -256,3 +256,5 @@ Maintenance note: verify launching with only one active display creates exactly 
 Maintenance note: after reconnecting displays in a different order, confirm exactly one overlay is recreated per active screen and old screen references are discarded.
 
 Maintenance note: verify stale display callbacks from an older screen snapshot cannot recreate or realign overlays after a newer topology has settled.
+
+Maintenance note: coalesce duplicate display-change notifications so one settled topology produces one reconciliation pass and one stable overlay set.
