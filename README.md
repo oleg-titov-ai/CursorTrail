@@ -255,4 +255,4 @@ Maintenance note: verify launching with only one active display creates exactly 
 
 Maintenance note: after reconnecting displays in a different order, confirm exactly one overlay is recreated per active screen and old screen references are discarded.
 
-Maintenance note: verify changing trail length while topology is stable updates existing overlays without recreating display ownership state.
+Maintenance note: verify stale display callbacks from an older screen snapshot cannot recreate or realign overlays after a newer topology has settled.
