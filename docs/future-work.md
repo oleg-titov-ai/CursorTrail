@@ -8,6 +8,7 @@ Small improvements to consider next.
 - Add a screenshot of the menu controls.
 - Add a short visual demo.
 - Document stable overlay behavior across display and session changes.
+- Add a regression check that coalesces duplicate display notifications and ignores stale topology generations.
 
 ## Medium Term
 
