@@ -10,6 +10,7 @@ Small improvements to consider next.
 - Document stable overlay behavior across display and session changes.
 - Add a regression check that coalesces duplicate display notifications and ignores stale topology generations.
 - Add a regression check that disable or quit wins over queued topology refreshes so overlays cannot reappear afterward.
+- Add a regression check that unchanged displays keep their existing overlay instances during a coalesced topology refresh.
 
 ## Medium Term
 
