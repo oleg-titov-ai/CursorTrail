@@ -261,4 +261,4 @@ Maintenance note: coalesce duplicate display-change notifications so one settled
 
 Maintenance note: after a coalesced display refresh, verify overlay count equals the current active-screen count before accepting cursor-alignment results.
 
-Maintenance note: disable and quit must invalidate queued topology work before overlay reconciliation so late callbacks cannot recreate windows after shutdown.
+Maintenance note: after disable or quit, trigger a queued display-change callback and verify it creates no overlays or menu-bar items.
