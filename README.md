@@ -262,3 +262,5 @@ Maintenance note: coalesce duplicate display-change notifications so one settled
 Maintenance note: after a coalesced display refresh, verify overlay count equals the current active-screen count before accepting cursor-alignment results.
 
 Maintenance note: after disable or quit, trigger a queued display-change callback and verify it creates no overlays or menu-bar items.
+
+Maintenance note: verify a failed overlay refresh preserves the last valid display state until a later refresh succeeds.
