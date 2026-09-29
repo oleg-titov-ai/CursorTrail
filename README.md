@@ -268,3 +268,5 @@ Maintenance note: verify a failed overlay refresh preserves the last valid displ
 Maintenance note: verify a clean rebuild removes stale app output before accepting the generated bundle for a portfolio demo.
 
 Maintenance note: after quitting, verify a queued display-refresh callback creates no overlay windows or menu-bar item.
+
+Maintenance note: verify repeated display-change callbacks coalesce into one settled overlay refresh.
