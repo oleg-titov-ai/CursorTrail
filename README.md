@@ -270,3 +270,5 @@ Maintenance note: verify a clean rebuild removes stale app output before accepti
 Maintenance note: after quitting, verify a queued display-refresh callback creates no overlay windows or menu-bar item.
 
 Maintenance note: verify repeated display-change callbacks coalesce into one settled overlay refresh.
+
+Maintenance note: after disconnecting the primary display, verify the trail migrates to the remaining screen without stale overlay coordinates.
