@@ -278,3 +278,5 @@ Maintenance note: verify launching with one active display creates exactly one a
 Maintenance note: after a display-topology change and app relaunch, verify saved trail settings restore without duplicate overlays.
 
 Maintenance note: verify quitting and relaunching restores exactly one menu-bar item with no stale overlay windows.
+
+Maintenance note: verify rapid trail-style changes do not accumulate hidden layers or increase idle CPU usage.
