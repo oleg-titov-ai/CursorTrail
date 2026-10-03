@@ -280,3 +280,5 @@ Maintenance note: after a display-topology change and app relaunch, verify saved
 Maintenance note: verify quitting and relaunching restores exactly one menu-bar item with no stale overlay windows.
 
 Maintenance note: verify rapid trail-style changes do not accumulate hidden layers or increase idle CPU usage.
+
+Maintenance note: verify rapid enable/disable cycles leave zero hidden overlay windows when the trail is disabled.
