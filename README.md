@@ -274,3 +274,5 @@ Maintenance note: verify repeated display-change callbacks coalesce into one set
 Maintenance note: after disconnecting the primary display, verify the trail migrates to the remaining screen without stale overlay coordinates.
 
 Maintenance note: verify launching with one active display creates exactly one aligned overlay and no duplicate window state.
+
+Maintenance note: after a display-topology change and app relaunch, verify saved trail settings restore without duplicate overlays.
