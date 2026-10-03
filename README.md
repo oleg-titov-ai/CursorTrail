@@ -276,3 +276,5 @@ Maintenance note: after disconnecting the primary display, verify the trail migr
 Maintenance note: verify launching with one active display creates exactly one aligned overlay and no duplicate window state.
 
 Maintenance note: after a display-topology change and app relaunch, verify saved trail settings restore without duplicate overlays.
+
+Maintenance note: verify quitting and relaunching restores exactly one menu-bar item with no stale overlay windows.
