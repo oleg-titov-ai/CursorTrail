@@ -284,3 +284,5 @@ Maintenance note: verify rapid trail-style changes do not accumulate hidden laye
 Maintenance note: verify rapid enable/disable cycles leave zero hidden overlay windows when the trail is disabled.
 
 Maintenance note: document how overlay resources are released after display-topology changes and verify no stale windows remain.
+
+Maintenance note: verify DPI changes preserve trail scaling while releasing overlays created for the previous display configuration.
