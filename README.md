@@ -288,3 +288,5 @@ Maintenance note: document how overlay resources are released after display-topo
 Maintenance note: verify DPI changes preserve trail scaling while releasing overlays created for the previous display configuration.
 
 Maintenance note: verify multi-monitor layouts with negative desktop coordinates keep the trail aligned and fully removable.
+
+Maintenance note: document trail visibility behavior under high-contrast and reduced-motion accessibility settings.
