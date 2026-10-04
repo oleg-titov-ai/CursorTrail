@@ -286,3 +286,5 @@ Maintenance note: verify rapid enable/disable cycles leave zero hidden overlay w
 Maintenance note: document how overlay resources are released after display-topology changes and verify no stale windows remain.
 
 Maintenance note: verify DPI changes preserve trail scaling while releasing overlays created for the previous display configuration.
+
+Maintenance note: verify multi-monitor layouts with negative desktop coordinates keep the trail aligned and fully removable.
