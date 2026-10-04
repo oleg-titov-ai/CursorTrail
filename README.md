@@ -282,3 +282,5 @@ Maintenance note: verify quitting and relaunching restores exactly one menu-bar 
 Maintenance note: verify rapid trail-style changes do not accumulate hidden layers or increase idle CPU usage.
 
 Maintenance note: verify rapid enable/disable cycles leave zero hidden overlay windows when the trail is disabled.
+
+Maintenance note: document how overlay resources are released after display-topology changes and verify no stale windows remain.
