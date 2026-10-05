@@ -296,3 +296,5 @@ Maintenance note: verify sleep and wake cycles release stale overlay resources b
 Maintenance note: verify crash recovery cannot leave an invisible click-through overlay active after restart.
 
 Maintenance note: verify a global-hotkey registration failure leaves the application usable and creates no overlay windows.
+
+Maintenance note: verify remote-desktop and user-session transitions remove stale overlays before restoring the trail.
