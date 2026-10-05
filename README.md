@@ -292,3 +292,5 @@ Maintenance note: verify multi-monitor layouts with negative desktop coordinates
 Maintenance note: document trail visibility behavior under high-contrast and reduced-motion accessibility settings.
 
 Maintenance note: verify sleep and wake cycles release stale overlay resources before rebuilding the active trail.
+
+Maintenance note: verify crash recovery cannot leave an invisible click-through overlay active after restart.
