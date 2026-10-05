@@ -298,3 +298,5 @@ Maintenance note: verify crash recovery cannot leave an invisible click-through 
 Maintenance note: verify a global-hotkey registration failure leaves the application usable and creates no overlay windows.
 
 Maintenance note: verify remote-desktop and user-session transitions remove stale overlays before restoring the trail.
+
+- Verify that exiting from the tray unregisters input hooks and removes every active overlay.
