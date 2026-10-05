@@ -290,3 +290,5 @@ Maintenance note: verify DPI changes preserve trail scaling while releasing over
 Maintenance note: verify multi-monitor layouts with negative desktop coordinates keep the trail aligned and fully removable.
 
 Maintenance note: document trail visibility behavior under high-contrast and reduced-motion accessibility settings.
+
+Maintenance note: verify sleep and wake cycles release stale overlay resources before rebuilding the active trail.
