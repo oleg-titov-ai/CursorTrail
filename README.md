@@ -300,3 +300,5 @@ Maintenance note: verify a global-hotkey registration failure leaves the applica
 Maintenance note: verify remote-desktop and user-session transitions remove stale overlays before restoring the trail.
 
 - Verify that exiting from the tray unregisters input hooks and removes every active overlay.
+
+- Document the expected behavior when input-hook registration is interrupted by a session lock or user switch.
