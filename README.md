@@ -294,3 +294,5 @@ Maintenance note: document trail visibility behavior under high-contrast and red
 Maintenance note: verify sleep and wake cycles release stale overlay resources before rebuilding the active trail.
 
 Maintenance note: verify crash recovery cannot leave an invisible click-through overlay active after restart.
+
+Maintenance note: verify a global-hotkey registration failure leaves the application usable and creates no overlay windows.
