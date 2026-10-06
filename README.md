@@ -302,3 +302,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Verify that exiting from the tray unregisters input hooks and removes every active overlay.
 
 - Document the expected behavior when input-hook registration is interrupted by a session lock or user switch.
+
+- Document how the application restores user preferences when the saved configuration is missing or malformed.
