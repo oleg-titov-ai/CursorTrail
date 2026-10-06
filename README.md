@@ -304,3 +304,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document the expected behavior when input-hook registration is interrupted by a session lock or user switch.
 
 - Document how the application restores user preferences when the saved configuration is missing or malformed.
+
+- Document the fallback behavior when the preferred overlay rendering mode is unavailable on the current display.
