@@ -308,3 +308,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document the fallback behavior when the preferred overlay rendering mode is unavailable on the current display.
 
 - Document how multi-monitor coordinate changes are handled while an overlay is already active.
+
+- Document how overlay cleanup is verified when the application exits during a display reconfiguration.
