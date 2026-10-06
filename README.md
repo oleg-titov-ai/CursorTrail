@@ -306,3 +306,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document how the application restores user preferences when the saved configuration is missing or malformed.
 
 - Document the fallback behavior when the preferred overlay rendering mode is unavailable on the current display.
+
+- Document how multi-monitor coordinate changes are handled while an overlay is already active.
