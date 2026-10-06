@@ -310,3 +310,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document how multi-monitor coordinate changes are handled while an overlay is already active.
 
 - Document how overlay cleanup is verified when the application exits during a display reconfiguration.
+
+- Document how cursor-trail state is reset when the active pointing device changes during a session.
