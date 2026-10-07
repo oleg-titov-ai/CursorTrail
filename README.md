@@ -314,3 +314,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document how cursor-trail state is reset when the active pointing device changes during a session.
 
 - Document how the application behaves when pointer sampling temporarily stops during system resume.
+
+- Document the expected fallback when the configured trail duration or opacity value is outside the supported range.
