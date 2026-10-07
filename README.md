@@ -320,3 +320,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document how settings changes are applied when multiple application instances are started accidentally.
 
 - Document how the application responds when the saved display identifier is no longer available.
+
+- Document how an active cursor trail is refreshed when the operating-system theme changes.
