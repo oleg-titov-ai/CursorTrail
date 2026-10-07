@@ -312,3 +312,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document how overlay cleanup is verified when the application exits during a display reconfiguration.
 
 - Document how cursor-trail state is reset when the active pointing device changes during a session.
+
+- Document how the application behaves when pointer sampling temporarily stops during system resume.
