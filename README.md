@@ -318,3 +318,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document the expected fallback when the configured trail duration or opacity value is outside the supported range.
 
 - Document how settings changes are applied when multiple application instances are started accidentally.
+
+- Document how the application responds when the saved display identifier is no longer available.
