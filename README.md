@@ -324,3 +324,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document how an active cursor trail is refreshed when the operating-system theme changes.
 
 - Document how trail rendering adapts to battery-saver mode while preserving input responsiveness.
+
+- Document how active overlays recover after a graphics-device reset or display-driver restart.
