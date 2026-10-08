@@ -326,3 +326,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document how trail rendering adapts to battery-saver mode while preserving input responsiveness.
 
 - Document how active overlays recover after a graphics-device reset or display-driver restart.
+
+- Document how overlay state is rebuilt when the graphics device changes during an active user session.
