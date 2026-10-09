@@ -336,3 +336,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail contrast and rendering behavior when a display switches between SDR and HDR modes.
 
 - Document trail alignment when the pointer crosses displays with different per-monitor DPI settings.
+
+- Document overlay rebuilding when a display rotates or changes orientation during an active trail.
