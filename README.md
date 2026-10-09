@@ -334,3 +334,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document how an active trail responds when the reduced-motion accessibility setting changes.
 
 - Document trail contrast and rendering behavior when a display switches between SDR and HDR modes.
+
+- Document trail alignment when the pointer crosses displays with different per-monitor DPI settings.
