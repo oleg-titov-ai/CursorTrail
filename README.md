@@ -340,3 +340,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document overlay rebuilding when a display rotates or changes orientation during an active trail.
 
 - Document expected trail behavior when a full-screen application captures or confines pointer input.
+
+- Document how reduced-motion behavior updates when the operating-system animation preference changes while the app is running.
