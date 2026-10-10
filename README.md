@@ -348,3 +348,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document suspend-and-resume behavior so stale pointer samples are discarded after system sleep.
 
 - Document renderer fallback behavior when hardware acceleration becomes unavailable during an active session.
+
+- Document session-switch behavior so trail state and cached pointer samples reset between operating-system users.
