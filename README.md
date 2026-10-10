@@ -342,3 +342,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document expected trail behavior when a full-screen application captures or confines pointer input.
 
 - Document how reduced-motion behavior updates when the operating-system animation preference changes while the app is running.
+
+- Document event-coalescing expectations for high-polling-rate pointing devices to keep trail rendering stable.
