@@ -344,3 +344,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document how reduced-motion behavior updates when the operating-system animation preference changes while the app is running.
 
 - Document event-coalescing expectations for high-polling-rate pointing devices to keep trail rendering stable.
+
+- Document suspend-and-resume behavior so stale pointer samples are discarded after system sleep.
