@@ -350,3 +350,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document renderer fallback behavior when hardware acceleration becomes unavailable during an active session.
 
 - Document session-switch behavior so trail state and cached pointer samples reset between operating-system users.
+
+- Document screen-lock behavior so visible trail overlays and cached pointer samples are cleared promptly.
