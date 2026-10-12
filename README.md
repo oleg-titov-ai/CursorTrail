@@ -364,3 +364,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail-state recovery when a monitor is connected or disconnected during an active session.
 
 - Document contrast and visibility expectations when the operating-system theme changes during a session.
+
+- Document rendering behavior under battery-saver mode, including any intentional frame-rate reduction.
