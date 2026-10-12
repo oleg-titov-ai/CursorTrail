@@ -368,3 +368,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document rendering behavior under battery-saver mode, including any intentional frame-rate reduction.
 
 - Document visual consistency expectations when display color profiles change during an active session.
+
+- Document trail reset and continuity when users switch between multiple pointing devices in one session.
