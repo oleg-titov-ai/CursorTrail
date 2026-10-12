@@ -362,3 +362,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail scaling when the pointer crosses monitors with different DPI settings during an active session.
 
 - Document trail-state recovery when a monitor is connected or disconnected during an active session.
+
+- Document contrast and visibility expectations when the operating-system theme changes during a session.
