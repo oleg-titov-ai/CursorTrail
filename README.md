@@ -366,3 +366,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document contrast and visibility expectations when the operating-system theme changes during a session.
 
 - Document rendering behavior under battery-saver mode, including any intentional frame-rate reduction.
+
+- Document visual consistency expectations when display color profiles change during an active session.
