@@ -378,3 +378,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document which user settings persist across application restarts while pointer samples and active trail state are cleared.
 
 - Document expected trail behavior when pointer sampling is interrupted by an operating-system permission change.
+
+- Document fallback behavior when high-frequency pointer APIs are unavailable in a remote desktop session.
