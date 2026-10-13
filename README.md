@@ -374,3 +374,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document whether pen and tablet input events participate in the trail or are intentionally ignored.
 
 - Document trail reset behavior when switching between operating-system virtual desktops or workspaces.
+
+- Document which user settings persist across application restarts while pointer samples and active trail state are cleared.
