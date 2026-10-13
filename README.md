@@ -370,3 +370,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document visual consistency expectations when display color profiles change during an active session.
 
 - Document trail reset and continuity when users switch between multiple pointing devices in one session.
+
+- Document whether pen and tablet input events participate in the trail or are intentionally ignored.
