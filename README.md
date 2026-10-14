@@ -377,6 +377,6 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document which user settings persist across application restarts while pointer samples and active trail state are cleared; manually compare style, length, and opacity before and after a menu-bar quit and relaunch, recording whether an old trail briefly reappears.
 
-- Document expected trail behavior when pointer sampling is interrupted by an operating-system permission change.
+- Document whether operating-system permission changes affect pointer sampling; record observed trail and menu-bar behavior in a manual check, marking permission-specific steps not applicable if the app requires no such permission.
 
 - Document remote-desktop pointer-sampling limitations using a local-versus-remote manual check; record the macOS version, trail responsiveness, and menu-bar usability without claiming an unverified fallback mechanism.
