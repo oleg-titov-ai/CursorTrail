@@ -379,4 +379,4 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document expected trail behavior when pointer sampling is interrupted by an operating-system permission change.
 
-- Document fallback behavior when high-frequency pointer APIs are unavailable in a remote desktop session.
+- Document remote-desktop pointer-sampling limitations using a local-versus-remote manual check; record the macOS version, trail responsiveness, and menu-bar usability without claiming an unverified fallback mechanism.
