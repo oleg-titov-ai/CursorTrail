@@ -371,7 +371,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document trail reset and continuity when users switch between multiple pointing devices in one session.
 
-- Document whether pen and tablet input events participate in the trail or are intentionally ignored.
+- Document whether pen and tablet input events participate in the trail or are intentionally ignored; use a manual mouse-versus-pen check to record device type, macOS version, trail visibility, and any input interference without storing pointer samples.
 
 - Document trail reset behavior when switching between operating-system virtual desktops or workspaces.
 
