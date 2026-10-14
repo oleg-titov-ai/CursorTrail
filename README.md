@@ -375,7 +375,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document trail reset behavior when switching between operating-system virtual desktops or workspaces.
 
-- Document which user settings persist across application restarts while pointer samples and active trail state are cleared.
+- Document which user settings persist across application restarts while pointer samples and active trail state are cleared; manually compare style, length, and opacity before and after a menu-bar quit and relaunch, recording whether an old trail briefly reappears.
 
 - Document expected trail behavior when pointer sampling is interrupted by an operating-system permission change.
 
