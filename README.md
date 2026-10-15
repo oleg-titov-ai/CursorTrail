@@ -369,7 +369,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document visual consistency expectations when display color profiles change during an active session; manually compare trail visibility and opacity before and after a profile switch, recording macOS and display details without claiming identical color rendering.
 
-- Document trail reset and continuity when users switch between multiple pointing devices in one session.
+- Document trail reset and continuity when users switch between multiple pointing devices in one session; manually alternate a mouse and trackpad on macOS and record whether existing points persist, reset, or blend, without storing pointer coordinates.
 
 - Document whether pen and tablet input events participate in the trail or are intentionally ignored; use a manual mouse-versus-pen check to record device type, macOS version, trail visibility, and any input interference without storing pointer samples.
 
