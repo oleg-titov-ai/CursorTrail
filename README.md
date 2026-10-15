@@ -373,7 +373,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document whether pen and tablet input events participate in the trail or are intentionally ignored; use a manual mouse-versus-pen check to record device type, macOS version, trail visibility, and any input interference without storing pointer samples.
 
-- Document trail reset behavior when switching between operating-system virtual desktops or workspaces.
+- Document trail reset behavior when switching between macOS Spaces; manually switch between two desktops and record trail visibility, stale overlays, and menu-bar responsiveness, without asserting full-screen support or recording pointer samples.
 
 - Document which user settings persist across application restarts while pointer samples and active trail state are cleared; manually compare style, length, and opacity before and after a menu-bar quit and relaunch, recording whether an old trail briefly reappears.
 
