@@ -363,7 +363,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document trail-state recovery when a monitor is connected or disconnected during an active session; manually detach and reconnect a secondary display on macOS to record trail clearing, coordinate rebinding, and absence of orphan overlays without storing pointer coordinates.
 
-- Document contrast and visibility expectations when the operating-system theme changes during a session.
+- Document contrast and visibility expectations when the operating-system theme changes during a session; manually switch macOS light and dark appearance with a trail active and record visibility, opacity, and whether existing points refresh without changing the saved style.
 
 - Document rendering behavior under macOS Low Power Mode, including any intentional frame-rate reduction; manually compare normal and low-power sessions for trail cadence, visibility, and input responsiveness, recording hardware and macOS version without claiming unmeasured performance.
 
