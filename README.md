@@ -355,7 +355,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document expected trail scaling and reset behavior when entering or leaving a remote-desktop session.
 
-- Document keyboard-only controls and visible focus behavior for toggling or configuring the trail.
+- Document keyboard-only controls and visible focus behavior for toggling or configuring the trail; manually navigate the macOS menu-bar controls and settings with the keyboard to record reachable actions, focus visibility, and any unavailable paths without claiming untested shortcut support.
 
 - Document expected behavior when pointer-acceleration settings change during an active session; manually compare trail continuity before and after an available macOS pointer-setting change, record hardware and OS version, and restore the original setting without collecting pointer samples.
 
