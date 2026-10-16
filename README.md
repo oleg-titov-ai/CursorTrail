@@ -353,7 +353,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document screen-lock behavior so visible trail overlays and cached pointer samples are cleared promptly.
 
-- Document expected trail scaling and reset behavior when entering or leaving a remote-desktop session.
+- Document expected trail scaling and reset behavior when entering or leaving a remote-desktop session; manually compare local, connected, and disconnected macOS sessions to record overlay visibility and stale-trail cleanup, marking unsupported paths explicitly without claiming untested remote-input support.
 
 - Document keyboard-only controls and visible focus behavior for toggling or configuring the trail; manually navigate the macOS menu-bar controls and settings with the keyboard to record reachable actions, focus visibility, and any unavailable paths without claiming untested shortcut support.
 
