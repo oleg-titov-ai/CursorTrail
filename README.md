@@ -357,7 +357,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document keyboard-only controls and visible focus behavior for toggling or configuring the trail.
 
-- Document expected behavior when pointer-acceleration settings change during an active session.
+- Document expected behavior when pointer-acceleration settings change during an active session; manually compare trail continuity before and after an available macOS pointer-setting change, record hardware and OS version, and restore the original setting without collecting pointer samples.
 
 - Document trail scaling when the pointer crosses monitors with different DPI settings during an active session; manually cross a mixed-scale display boundary in both directions on macOS and record apparent trail width, discontinuities, and display scale settings without storing pointer coordinates.
 
