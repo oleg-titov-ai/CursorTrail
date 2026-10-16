@@ -359,7 +359,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document expected behavior when pointer-acceleration settings change during an active session.
 
-- Document trail scaling when the pointer crosses monitors with different DPI settings during an active session.
+- Document trail scaling when the pointer crosses monitors with different DPI settings during an active session; manually cross a mixed-scale display boundary in both directions on macOS and record apparent trail width, discontinuities, and display scale settings without storing pointer coordinates.
 
 - Document trail-state recovery when a monitor is connected or disconnected during an active session; manually detach and reconnect a secondary display on macOS to record trail clearing, coordinate rebinding, and absence of orphan overlays without storing pointer coordinates.
 
