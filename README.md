@@ -343,7 +343,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document how reduced-motion behavior updates when the operating-system animation preference changes while the app is running.
 
-- Document event-coalescing expectations for high-polling-rate pointing devices to keep trail rendering stable.
+- Document event-coalescing expectations for high-polling-rate pointing devices to keep trail rendering stable; manually compare available device rates on macOS, recording visible continuity and input interference while marking unavailable rates untested and avoiding claims of coalescing support without implementation evidence.
 
 - Document suspend-and-resume behavior so stale pointer samples are discarded after system sleep; manually sleep and wake a macOS session with an active trail to record whether overlays clear and rendering resumes without replaying pre-sleep points, noting hardware and OS version without storing pointer samples.
 
