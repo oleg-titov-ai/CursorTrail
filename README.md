@@ -351,7 +351,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document session-switch behavior so trail state and cached pointer samples reset between operating-system users.
 
-- Document screen-lock behavior so visible trail overlays and cached pointer samples are cleared promptly.
+- Document screen-lock behavior so visible trail overlays and cached pointer samples are cleared promptly; manually lock and unlock a macOS session with a visible trail to record disappearance and absence of stale-point replay, noting observed behavior without retaining pointer samples.
 
 - Document expected trail scaling and reset behavior when entering or leaving a remote-desktop session; manually compare local, connected, and disconnected macOS sessions to record overlay visibility and stale-trail cleanup, marking unsupported paths explicitly without claiming untested remote-input support.
 
