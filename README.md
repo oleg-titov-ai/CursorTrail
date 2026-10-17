@@ -345,7 +345,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document event-coalescing expectations for high-polling-rate pointing devices to keep trail rendering stable.
 
-- Document suspend-and-resume behavior so stale pointer samples are discarded after system sleep.
+- Document suspend-and-resume behavior so stale pointer samples are discarded after system sleep; manually sleep and wake a macOS session with an active trail to record whether overlays clear and rendering resumes without replaying pre-sleep points, noting hardware and OS version without storing pointer samples.
 
 - Document whether the current renderer exposes a testable hardware-acceleration fallback; record the applicable macOS rendering path and any safely reproducible failure, marking unavailable tests explicitly and avoiding claims of automatic software fallback without implementation evidence.
 
