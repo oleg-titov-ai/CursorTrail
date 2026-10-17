@@ -349,7 +349,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document renderer fallback behavior when hardware acceleration becomes unavailable during an active session.
 
-- Document session-switch behavior so trail state and cached pointer samples reset between operating-system users.
+- Document session-switch behavior so trail state and cached pointer samples reset between operating-system users; manually switch between two disposable macOS accounts to record overlay isolation and stale-trail clearing on return without collecting either user's pointer coordinates.
 
 - Document screen-lock behavior so visible trail overlays and cached pointer samples are cleared promptly; manually lock and unlock a macOS session with a visible trail to record disappearance and absence of stale-point replay, noting observed behavior without retaining pointer samples.
 
