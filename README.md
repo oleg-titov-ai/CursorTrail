@@ -337,7 +337,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document trail alignment when the pointer crosses displays with different per-monitor DPI settings.
 
-- Document overlay rebuilding when a display rotates or changes orientation during an active trail.
+- Document overlay rebuilding when a display rotates or changes orientation during an active trail; manually rotate a supported external display on macOS to record overlay bounds, trail alignment, and stale-point clearing, restoring the original orientation and marking unavailable hardware untested.
 
 - Document expected trail behavior when a full-screen application captures or confines pointer input.
 
