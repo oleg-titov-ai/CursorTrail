@@ -335,7 +335,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document trail contrast and rendering behavior when a display switches between SDR and HDR modes.
 
-- Document trail alignment when the pointer crosses displays with different per-monitor DPI settings.
+- Document trail alignment when the pointer crosses displays with different per-monitor DPI settings; manually cross mixed-scale macOS displays with offset origins to check cursor-to-trail alignment at each edge, recording layout and scale without storing pointer coordinates or claiming untested arrangements work.
 
 - Document overlay rebuilding when a display rotates or changes orientation during an active trail; manually rotate a supported external display on macOS to record overlay bounds, trail alignment, and stale-point clearing, restoring the original orientation and marking unavailable hardware untested.
 
