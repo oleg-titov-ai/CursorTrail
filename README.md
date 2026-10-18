@@ -341,7 +341,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document expected trail behavior when a full-screen application captures or confines pointer input; manually enter and leave an available macOS full-screen app to record overlay visibility, pointer confinement, and trail reset, without bypassing input capture or claiming untested game compatibility.
 
-- Document how reduced-motion behavior updates when the operating-system animation preference changes while the app is running.
+- Document whether the running app responds to macOS Reduce Motion changes; manually toggle the preference to record trail visibility and animation, restore the original setting, and mark unchanged or untested behavior explicitly rather than implying automatic accessibility adaptation.
 
 - Document event-coalescing expectations for high-polling-rate pointing devices to keep trail rendering stable; manually compare available device rates on macOS, recording visible continuity and input interference while marking unavailable rates untested and avoiding claims of coalescing support without implementation evidence.
 
