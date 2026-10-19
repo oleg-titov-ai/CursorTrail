@@ -329,7 +329,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document how overlay state is rebuilt when the graphics device changes during an active user session.
 
-- Document expected trail behavior on high-refresh-rate and variable-refresh displays.
+- Document expected trail behavior on high-refresh-rate and variable-refresh displays; manually compare the same trail settings at supported display refresh settings, record macOS version, display mode, and observed continuity, then restore the original setting and mark untested modes explicitly without claiming frame-rate guarantees.
 
 - Document how an active trail responds when the reduced-motion accessibility setting changes.
 
