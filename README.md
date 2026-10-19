@@ -203,6 +203,10 @@ MIT License.
 
 Feel free to use, modify and share.
 
+## Maintenance checklist / Проверки обслуживания
+
+These are checks to perform, not a tested compatibility matrix. For each manual check, record the app commit, macOS version, relevant display or device setup, and observed result; mark unavailable configurations as untested without recording pointer activity.
+
 Maintenance note: smoke-test the trail after moving the cursor between displays with different scaling settings.
 
 Maintenance note: confirm the menu-bar icon remains usable after waking the Mac from sleep.
