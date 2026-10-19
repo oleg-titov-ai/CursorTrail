@@ -331,8 +331,6 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document expected trail behavior on high-refresh-rate and variable-refresh displays; manually compare the same trail settings at supported display refresh settings, record macOS version, display mode, and observed continuity, then restore the original setting and mark untested modes explicitly without claiming frame-rate guarantees.
 
-- Document how an active trail responds when the reduced-motion accessibility setting changes.
-
 - Document trail contrast and rendering behavior when a display switches between SDR and HDR modes; manually compare visibility and opacity on supported macOS hardware, record display and OS details, restore the original mode, and mark unavailable HDR testing explicitly without claiming color equivalence.
 
 - Document trail alignment when the pointer crosses displays with different per-monitor DPI settings; manually cross mixed-scale macOS displays with offset origins to check cursor-to-trail alignment at each edge, recording layout and scale without storing pointer coordinates or claiming untested arrangements work.
