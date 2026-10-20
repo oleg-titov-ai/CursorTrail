@@ -323,8 +323,6 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document how the application responds when the saved display identifier is no longer available.
 
-- Document how an active cursor trail is refreshed when the operating-system theme changes.
-
 - Document whether trail rendering changes under macOS Low Power Mode; manually compare available modes with identical trail settings, record observed continuity and menu responsiveness, restore the original setting, and mark unsupported or untested modes without implying automatic adaptation or measured energy savings.
 
 - Document how active overlays recover after a graphics-device reset or display-driver restart.
