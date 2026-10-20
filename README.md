@@ -305,7 +305,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document the expected behavior when pointer-event monitoring is interrupted by a macOS session lock or user switch.
 
-- Document how the application restores user preferences when the saved configuration is missing or malformed.
+- Document how the application restores user preferences when the saved configuration is missing or malformed; use a disposable macOS preferences domain with missing, invalid, and outdated fields to record observed defaults, preserved valid settings, and menu-bar usability without altering an existing user's preferences.
 
 - Document the fallback behavior when the preferred overlay rendering mode is unavailable on the current display.
 
