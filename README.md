@@ -317,7 +317,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document how the application behaves when pointer sampling temporarily stops during system resume.
 
-- Document the expected fallback when the configured trail duration or opacity value is outside the supported range.
+- Document observed handling of out-of-range trail duration and opacity in a disposable macOS test profile; record fallback, clamping, or rejection and whether valid saved settings remain intact, marking untested cases explicitly without changing a user's existing preferences.
 
 - Document how settings changes are applied when multiple application instances are started accidentally.
 
