@@ -315,7 +315,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document how cursor-trail state is reset when the active pointing device changes during a session.
 
-- Document how the application behaves when pointer sampling temporarily stops during system resume.
+- Document how the application behaves when pointer sampling temporarily stops during system resume; manually test sleep and wake on a disposable macOS profile, recording whether stale trail points clear, sampling resumes, and menu-bar controls remain usable without storing pointer coordinates or claiming results for untested systems.
 
 - Document observed handling of out-of-range trail duration and opacity in a disposable macOS test profile; record fallback, clamping, or rejection and whether valid saved settings remain intact, marking untested cases explicitly without changing a user's existing preferences.
 
