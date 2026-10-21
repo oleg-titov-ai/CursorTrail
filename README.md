@@ -303,7 +303,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Verify that quitting from the macOS menu bar stops pointer-event monitoring and removes every active overlay.
 
-- Document the expected behavior when pointer-event monitoring is interrupted by a macOS session lock or user switch.
+- Document the expected behavior when pointer-event monitoring is interrupted by a macOS session lock or user switch; manually test lock, unlock, and fast-user-switch transitions to record whether sampling pauses, stale overlays clear, and menu-bar controls recover, without storing pointer coordinates or claiming behavior beyond the tested macOS version.
 
 - Document how the application restores user preferences when the saved configuration is missing or malformed; use a disposable macOS preferences domain with missing, invalid, and outdated fields to record observed defaults, preserved valid settings, and menu-bar usability without altering an existing user's preferences.
 
