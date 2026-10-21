@@ -309,7 +309,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document the fallback behavior when the preferred overlay rendering mode is unavailable on the current display.
 
-- Document how multi-monitor coordinate changes are handled while an overlay is already active.
+- Document how multi-monitor coordinate changes are handled while an overlay is already active; manually rearrange and disconnect a secondary display on a disposable macOS profile, recording trail alignment, stale overlay cleanup, and menu-bar responsiveness without storing pointer coordinates or claiming untested layout support.
 
 - Document how overlay cleanup is verified when the application exits during a display reconfiguration.
 
