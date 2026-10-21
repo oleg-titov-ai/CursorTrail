@@ -319,7 +319,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document observed handling of out-of-range trail duration and opacity in a disposable macOS test profile; record fallback, clamping, or rejection and whether valid saved settings remain intact, marking untested cases explicitly without changing a user's existing preferences.
 
-- Document how settings changes are applied when multiple application instances are started accidentally.
+- Document how settings changes are applied when multiple application instances are started accidentally; manually launch a second instance in a disposable macOS profile and record ownership of menu-bar controls, preference writes, overlay cleanup, and final saved settings without changing an existing user's configuration.
 
 - Document how the application responds when the saved display identifier is no longer available.
 
