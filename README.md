@@ -321,7 +321,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document how settings changes are applied when multiple application instances are started accidentally; manually launch a second instance in a disposable macOS profile and record ownership of menu-bar controls, preference writes, overlay cleanup, and final saved settings without changing an existing user's configuration.
 
-- Document how the application responds when the saved display identifier is no longer available.
+- Document how the application responds when the saved display identifier is no longer available; use a disposable macOS preferences domain and disconnected secondary display to record observed fallback, overlay cleanup, settings preservation, and menu-bar usability without altering an existing user's preferences or claiming automatic display selection.
 
 - Document whether trail rendering changes under macOS Low Power Mode; manually compare available modes with identical trail settings, record observed continuity and menu responsiveness, restore the original setting, and mark unsupported or untested modes without implying automatic adaptation or measured energy savings.
 
