@@ -378,3 +378,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document whether operating-system permission changes affect pointer sampling; record observed trail and menu-bar behavior in a manual check, marking permission-specific steps not applicable if the app requires no such permission.
 
 - Document remote-desktop pointer-sampling limitations using a local-versus-remote manual check; record the macOS version, trail responsiveness, and menu-bar usability without claiming an unverified fallback mechanism.
+
+- Document settings and runtime-state behavior across an application update and first relaunch; manually compare two disposable macOS builds to verify saved style preferences are preserved while pointer samples and stale overlays are cleared, marking the path untested when a prior build is unavailable.
