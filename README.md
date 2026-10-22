@@ -311,7 +311,7 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 
 - Document how multi-monitor coordinate changes are handled while an overlay is already active; manually rearrange and disconnect a secondary display on a disposable macOS profile, recording trail alignment, stale overlay cleanup, and menu-bar responsiveness without storing pointer coordinates or claiming untested layout support.
 
-- Document how overlay cleanup is verified when the application exits during a display reconfiguration.
+- Document how overlay cleanup is verified when the application exits during a display reconfiguration; manually quit while a secondary display is connecting or disconnecting, then record remaining windows, trail artifacts, menu-bar state, and relaunch behavior on a disposable macOS profile without storing pointer coordinates.
 
 - Document how cursor-trail state is reset when the active pointing device changes during a session.
 
