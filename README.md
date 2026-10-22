@@ -382,3 +382,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document settings and runtime-state behavior across an application update and first relaunch; manually compare two disposable macOS builds to verify saved style preferences are preserved while pointer samples and stale overlays are cleared, marking the path untested when a prior build is unavailable.
 
 - Document trail behavior while macOS accessibility zoom is enabled or toggled during a session; manually record overlay alignment, scaling, stale-point clearing, and menu-bar usability with disposable settings, restore the prior preference, and avoid storing pointer coordinates.
+
+- Document whether the trail overlay appears in macOS screenshots and screen recordings; perform a manual disposable capture check to record observed visibility and privacy expectations, delete test captures afterward, and avoid claiming capture exclusion unless it is verified.
