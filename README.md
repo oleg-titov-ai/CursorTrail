@@ -380,3 +380,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document remote-desktop pointer-sampling limitations using a local-versus-remote manual check; record the macOS version, trail responsiveness, and menu-bar usability without claiming an unverified fallback mechanism.
 
 - Document settings and runtime-state behavior across an application update and first relaunch; manually compare two disposable macOS builds to verify saved style preferences are preserved while pointer samples and stale overlays are cleared, marking the path untested when a prior build is unavailable.
+
+- Document trail behavior while macOS accessibility zoom is enabled or toggled during a session; manually record overlay alignment, scaling, stale-point clearing, and menu-bar usability with disposable settings, restore the prior preference, and avoid storing pointer coordinates.
