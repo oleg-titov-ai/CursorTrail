@@ -386,3 +386,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document whether the trail overlay appears in macOS screenshots and screen recordings; perform a manual disposable capture check to record observed visibility and privacy expectations, delete test captures afterward, and avoid claiming capture exclusion unless it is verified.
 
 - Document trail and menu-bar behavior when macOS Stage Manager is enabled or toggled during an active session; manually record overlay visibility, window transitions, stale-point clearing, and input responsiveness, restoring the prior desktop setting without retaining pointer coordinates.
+
+- Document trail visibility and saved-style behavior when macOS color inversion is enabled or toggled during a session; manually record color, opacity, stale-point clearing, and menu-bar usability, restore the prior accessibility setting, and avoid claiming unchanged color rendering without observation.
