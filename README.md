@@ -392,3 +392,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document menu-bar control availability on Mac displays with a notch and with menu-bar auto-hide enabled; manually record icon reachability, overlay continuity, stale-point clearing, and keyboard access, restoring prior desktop settings without storing pointer coordinates.
 
 - Document trail behavior when display refresh rate changes or variable refresh is active during a session; manually record trail spacing, fade timing, stale-point clearing, and input responsiveness at supported rates, restoring the prior display setting without retaining pointer coordinates.
+
+- Document trail behavior on virtual displays created by AirPlay, Sidecar, or screen mirroring; manually record pointer alignment, overlay lifecycle, stale-point clearing, and menu-bar access when connecting and disconnecting a supported target, restoring the prior display setup without retaining pointer coordinates.
