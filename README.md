@@ -394,3 +394,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail behavior when display refresh rate changes or variable refresh is active during a session; manually record trail spacing, fade timing, stale-point clearing, and input responsiveness at supported rates, restoring the prior display setting without retaining pointer coordinates.
 
 - Document trail behavior on virtual displays created by AirPlay, Sidecar, or screen mirroring; manually record pointer alignment, overlay lifecycle, stale-point clearing, and menu-bar access when connecting and disconnecting a supported target, restoring the prior display setup without retaining pointer coordinates.
+
+- Document overlay behavior when the screen locks and unlocks while the trail is enabled; manually verify immediate clearing before lock, no stale coordinates on the lock screen, clean overlay recreation after unlock, and preservation of saved style without retaining pointer history.
