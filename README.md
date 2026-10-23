@@ -390,3 +390,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail visibility and saved-style behavior when macOS color inversion is enabled or toggled during a session; manually record color, opacity, stale-point clearing, and menu-bar usability, restore the prior accessibility setting, and avoid claiming unchanged color rendering without observation.
 
 - Document menu-bar control availability on Mac displays with a notch and with menu-bar auto-hide enabled; manually record icon reachability, overlay continuity, stale-point clearing, and keyboard access, restoring prior desktop settings without storing pointer coordinates.
+
+- Document trail behavior when display refresh rate changes or variable refresh is active during a session; manually record trail spacing, fade timing, stale-point clearing, and input responsiveness at supported rates, restoring the prior display setting without retaining pointer coordinates.
