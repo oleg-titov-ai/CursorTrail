@@ -400,3 +400,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail and overlay cleanup during macOS fast user switching and logout; manually verify the prior session leaves no visible points or active overlays on another user's desktop, recreates only one overlay after return, and preserves style settings without sharing pointer history.
 
 - Document runtime behavior when macOS Accessibility or Input Monitoring permission is revoked while the trail is active; manually verify immediate capture shutdown, overlay and stale-point clearing, a non-sensitive recovery prompt, and clean resumption only after permission is restored.
+
+- Document behavior when an application or macOS temporarily hides the system cursor; manually verify trail suppression or clearing, restoration without stale points when the cursor reappears, menu-bar control availability, and no retention of hidden pointer positions.
