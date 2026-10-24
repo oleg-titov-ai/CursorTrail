@@ -398,3 +398,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document overlay behavior when the screen locks and unlocks while the trail is enabled; manually verify immediate clearing before lock, no stale coordinates on the lock screen, clean overlay recreation after unlock, and preservation of saved style without retaining pointer history.
 
 - Document trail and overlay cleanup during macOS fast user switching and logout; manually verify the prior session leaves no visible points or active overlays on another user's desktop, recreates only one overlay after return, and preserves style settings without sharing pointer history.
+
+- Document runtime behavior when macOS Accessibility or Input Monitoring permission is revoked while the trail is active; manually verify immediate capture shutdown, overlay and stale-point clearing, a non-sensitive recovery prompt, and clean resumption only after permission is restored.
