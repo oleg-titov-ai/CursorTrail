@@ -402,3 +402,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document runtime behavior when macOS Accessibility or Input Monitoring permission is revoked while the trail is active; manually verify immediate capture shutdown, overlay and stale-point clearing, a non-sensitive recovery prompt, and clean resumption only after permission is restored.
 
 - Document behavior when an application or macOS temporarily hides the system cursor; manually verify trail suppression or clearing, restoration without stale points when the cursor reappears, menu-bar control availability, and no retention of hidden pointer positions.
+
+- Document trail alignment and spacing when macOS pointer acceleration or tracking speed changes during a session; manually compare supported settings, verify absolute cursor alignment and stale-point clearing, restore the prior preference, and avoid retaining movement samples.
