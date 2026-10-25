@@ -406,3 +406,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail alignment and spacing when macOS pointer acceleration or tracking speed changes during a session; manually compare supported settings, verify absolute cursor alignment and stale-point clearing, restore the prior preference, and avoid retaining movement samples.
 
 - Document pointer alignment and overlay bounds on macOS displays rotated to supported portrait or inverted orientations; manually cross display edges, change rotation while running, verify stale-point clearing and menu access, restore the original layout, and retain no pointer coordinates.
+
+- Document trail alignment and visibility when the macOS pointer-size accessibility setting changes during a session; manually compare supported sizes, verify overlay offset, spacing, stale-point clearing, and menu-bar control access, restore the prior setting, and retain no pointer coordinates.
