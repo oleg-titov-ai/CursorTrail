@@ -404,3 +404,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document behavior when an application or macOS temporarily hides the system cursor; manually verify trail suppression or clearing, restoration without stale points when the cursor reappears, menu-bar control availability, and no retention of hidden pointer positions.
 
 - Document trail alignment and spacing when macOS pointer acceleration or tracking speed changes during a session; manually compare supported settings, verify absolute cursor alignment and stale-point clearing, restore the prior preference, and avoid retaining movement samples.
+
+- Document pointer alignment and overlay bounds on macOS displays rotated to supported portrait or inverted orientations; manually cross display edges, change rotation while running, verify stale-point clearing and menu access, restore the original layout, and retain no pointer coordinates.
