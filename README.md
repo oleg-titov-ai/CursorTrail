@@ -410,3 +410,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail alignment and visibility when the macOS pointer-size accessibility setting changes during a session; manually compare supported sizes, verify overlay offset, spacing, stale-point clearing, and menu-bar control access, restore the prior setting, and retain no pointer coordinates.
 
 - Document trail and menu-bar behavior when a MacBook enters or exits clamshell mode with an external display; manually verify display rebinding, pointer alignment, stale-point clearing, saved-style persistence, and one active overlay, restoring the original setup without retaining pointer coordinates.
+
+- Document interaction with the macOS “Shake mouse pointer to locate” accessibility feature; manually verify temporary pointer enlargement does not offset, duplicate, or retain trail points, record overlay and menu-bar behavior, restore the prior setting, and keep no pointer coordinates.
