@@ -408,3 +408,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document pointer alignment and overlay bounds on macOS displays rotated to supported portrait or inverted orientations; manually cross display edges, change rotation while running, verify stale-point clearing and menu access, restore the original layout, and retain no pointer coordinates.
 
 - Document trail alignment and visibility when the macOS pointer-size accessibility setting changes during a session; manually compare supported sizes, verify overlay offset, spacing, stale-point clearing, and menu-bar control access, restore the prior setting, and retain no pointer coordinates.
+
+- Document trail and menu-bar behavior when a MacBook enters or exits clamshell mode with an external display; manually verify display rebinding, pointer alignment, stale-point clearing, saved-style persistence, and one active overlay, restoring the original setup without retaining pointer coordinates.
