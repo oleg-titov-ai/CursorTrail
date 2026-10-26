@@ -414,3 +414,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document interaction with the macOS “Shake mouse pointer to locate” accessibility feature; manually verify temporary pointer enlargement does not offset, duplicate, or retain trail points, record overlay and menu-bar behavior, restore the prior setting, and keep no pointer coordinates.
 
 - Document trail and menu-bar behavior during macOS Mission Control entry, overview navigation, and exit; manually verify overlay visibility, pointer alignment, stale-point clearing, and single-overlay restoration across desktops, recording no pointer coordinates and leaving desktop arrangement unchanged.
+
+- Document trail alignment when the active display's scaled resolution changes without disconnecting the monitor; manually compare supported resolutions, verify coordinate rebinding, stale-point clearing, menu-bar reachability, and saved-style persistence, restore the prior resolution, and retain no pointer coordinates.
