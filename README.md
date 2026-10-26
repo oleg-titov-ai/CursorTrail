@@ -422,3 +422,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document single-instance behavior when launch-at-login and a manual launch occur nearly simultaneously; manually verify only one menu-bar item, event sampler, and overlay remain active, stale points are cleared during handoff, saved style persists, and no pointer coordinates are retained.
 
 - Document recovery when macOS disables the pointer event tap after a timeout or transient system load; manually verify bounded re-enablement, one active sampler and overlay, stale-point clearing, menu-bar responsiveness, and saved-style persistence without retaining pointer coordinates or entering a retry loop.
+
+- Document settings migration across an application update that changes the preferences schema; manually verify supported old, current, malformed, and partially written settings produce one deterministic style, keep menu-bar controls reachable, clear transient trail points, and retain no pointer coordinates during migration.
