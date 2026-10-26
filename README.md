@@ -420,3 +420,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail and menu-bar behavior when the macOS main display changes while multiple monitors remain connected; manually move the menu bar or primary-display designation, verify coordinate rebinding, stale-point clearing, control reachability, and one active overlay, restore the original layout, and retain no pointer coordinates.
 
 - Document single-instance behavior when launch-at-login and a manual launch occur nearly simultaneously; manually verify only one menu-bar item, event sampler, and overlay remain active, stale points are cleared during handoff, saved style persists, and no pointer coordinates are retained.
+
+- Document recovery when macOS disables the pointer event tap after a timeout or transient system load; manually verify bounded re-enablement, one active sampler and overlay, stale-point clearing, menu-bar responsiveness, and saved-style persistence without retaining pointer coordinates or entering a retry loop.
