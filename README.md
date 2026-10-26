@@ -418,3 +418,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail alignment when the active display's scaled resolution changes without disconnecting the monitor; manually compare supported resolutions, verify coordinate rebinding, stale-point clearing, menu-bar reachability, and saved-style persistence, restore the prior resolution, and retain no pointer coordinates.
 
 - Document trail and menu-bar behavior when the macOS main display changes while multiple monitors remain connected; manually move the menu bar or primary-display designation, verify coordinate rebinding, stale-point clearing, control reachability, and one active overlay, restore the original layout, and retain no pointer coordinates.
+
+- Document single-instance behavior when launch-at-login and a manual launch occur nearly simultaneously; manually verify only one menu-bar item, event sampler, and overlay remain active, stale points are cleared during handoff, saved style persists, and no pointer coordinates are retained.
