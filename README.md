@@ -428,3 +428,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document graceful behavior under macOS thermal pressure or sustained high CPU load; manually verify bounded sampling reduction, responsive menu-bar controls, one active overlay, stale-point clearing, and restoration of the saved style after recovery, while retaining no pointer coordinates or diagnostic event traces.
 
 - Document behavior during click-and-drag operations across windows, Spaces, and displays; manually verify the overlay never intercepts input, trail points remain aligned, stale points clear after cancellation or drop, menu-bar controls stay reachable, and no pointer coordinates or dragged content are retained.
+
+- Document trail and menu-bar behavior when the macOS screen saver starts, remains active, and exits; manually verify sampling and overlays pause as documented, stale points clear before restoration, one overlay resumes with the saved style, and no pointer coordinates are retained during the covered interval.
