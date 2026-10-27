@@ -424,3 +424,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document recovery when macOS disables the pointer event tap after a timeout or transient system load; manually verify bounded re-enablement, one active sampler and overlay, stale-point clearing, menu-bar responsiveness, and saved-style persistence without retaining pointer coordinates or entering a retry loop.
 
 - Document settings migration across an application update that changes the preferences schema; manually verify supported old, current, malformed, and partially written settings produce one deterministic style, keep menu-bar controls reachable, clear transient trail points, and retain no pointer coordinates during migration.
+
+- Document graceful behavior under macOS thermal pressure or sustained high CPU load; manually verify bounded sampling reduction, responsive menu-bar controls, one active overlay, stale-point clearing, and restoration of the saved style after recovery, while retaining no pointer coordinates or diagnostic event traces.
