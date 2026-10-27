@@ -432,3 +432,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail and menu-bar behavior when the macOS screen saver starts, remains active, and exits; manually verify sampling and overlays pause as documented, stale points clear before restoration, one overlay resumes with the saved style, and no pointer coordinates are retained during the covered interval.
 
 - Document behavior when a full-screen application or game captures, hides, or confines the pointer; manually verify the trail pauses or remains bounded as documented, the overlay never steals focus or input, stale points clear on release, menu-bar controls recover, and no pointer coordinates are retained.
+
+- Document behavior when macOS accessibility or input-monitoring permission is revoked during a session; manually verify sampling stops promptly, overlays and stale points clear, menu-bar controls remain usable, reauthorization guidance reveals no pointer data, and one overlay resumes only after permission is explicitly restored.
