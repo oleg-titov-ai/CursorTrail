@@ -426,3 +426,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document settings migration across an application update that changes the preferences schema; manually verify supported old, current, malformed, and partially written settings produce one deterministic style, keep menu-bar controls reachable, clear transient trail points, and retain no pointer coordinates during migration.
 
 - Document graceful behavior under macOS thermal pressure or sustained high CPU load; manually verify bounded sampling reduction, responsive menu-bar controls, one active overlay, stale-point clearing, and restoration of the saved style after recovery, while retaining no pointer coordinates or diagnostic event traces.
+
+- Document behavior during click-and-drag operations across windows, Spaces, and displays; manually verify the overlay never intercepts input, trail points remain aligned, stale points clear after cancellation or drop, menu-bar controls stay reachable, and no pointer coordinates or dragged content are retained.
