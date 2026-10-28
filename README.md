@@ -434,3 +434,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document behavior when a full-screen application or game captures, hides, or confines the pointer; manually verify the trail pauses or remains bounded as documented, the overlay never steals focus or input, stale points clear on release, menu-bar controls recover, and no pointer coordinates are retained.
 
 - Document behavior when macOS accessibility or input-monitoring permission is revoked during a session; manually verify sampling stops promptly, overlays and stale points clear, menu-bar controls remain usable, reauthorization guidance reveals no pointer data, and one overlay resumes only after permission is explicitly restored.
+
+- Document switching between multiple mice, trackpads, and pointing devices with different event rates; manually verify one aligned trail and overlay, bounded density, stale-point clearing at handoff, responsive menu-bar controls, and no persistence of device identifiers or pointer coordinates.
