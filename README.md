@@ -442,3 +442,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document behavior when macOS Reduce Transparency changes during a session; manually verify trail visibility, overlay compositing, stale-point clearing, menu-bar readability, and restoration across enabled, disabled, and rapid-toggle cases, while retaining no pointer coordinates or accessibility-setting history.
 
 - Document behavior while macOS Secure Input is active around password or credential entry; manually verify the trail never attempts to bypass protected input, remains paused or bounded as documented, clears stale points on transition, restores one overlay afterward, and retains no field metadata, application identity, or pointer coordinates.
+
+- Document interaction with macOS Mouse Keys and other accessibility-driven pointer movement; manually verify one aligned trail, bounded sampling, non-intercepting overlays, stale-point clearing when the feature toggles, responsive menu-bar controls, and no retention of accessibility settings, key events, or pointer coordinates.
