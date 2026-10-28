@@ -440,3 +440,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document behavior when a connected display rotates or changes its coordinate transform during a session; manually verify the trail remains aligned across portrait, landscape, mirrored, scaled, and mid-drag transitions, stale points clear before remapping, one overlay survives, and no pointer coordinates or display identifiers are retained.
 
 - Document behavior when macOS Reduce Transparency changes during a session; manually verify trail visibility, overlay compositing, stale-point clearing, menu-bar readability, and restoration across enabled, disabled, and rapid-toggle cases, while retaining no pointer coordinates or accessibility-setting history.
+
+- Document behavior while macOS Secure Input is active around password or credential entry; manually verify the trail never attempts to bypass protected input, remains paused or bounded as documented, clears stale points on transition, restores one overlay afterward, and retains no field metadata, application identity, or pointer coordinates.
