@@ -438,3 +438,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document switching between multiple mice, trackpads, and pointing devices with different event rates; manually verify one aligned trail and overlay, bounded density, stale-point clearing at handoff, responsive menu-bar controls, and no persistence of device identifiers or pointer coordinates.
 
 - Document behavior when a connected display rotates or changes its coordinate transform during a session; manually verify the trail remains aligned across portrait, landscape, mirrored, scaled, and mid-drag transitions, stale points clear before remapping, one overlay survives, and no pointer coordinates or display identifiers are retained.
+
+- Document behavior when macOS Reduce Transparency changes during a session; manually verify trail visibility, overlay compositing, stale-point clearing, menu-bar readability, and restoration across enabled, disabled, and rapid-toggle cases, while retaining no pointer coordinates or accessibility-setting history.
