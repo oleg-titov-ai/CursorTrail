@@ -448,3 +448,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document trail alignment when the macOS pointer-size accessibility setting changes during a session; manually verify normal, enlarged, maximum, rapid-toggle, and restored sizes keep one correctly anchored trail, clear stale points before remapping, leave menu-bar controls responsive, and retain no accessibility-setting history or pointer coordinates.
 
 - Document recovery after macOS App Nap or process suspension pauses rendering timers; manually verify stale points clear before resume, elapsed time does not create a long bridge, one overlay and the saved style return, menu-bar controls remain responsive, and no pointer coordinates or suspension diagnostics are retained.
+
+- Document pointer handoff through macOS Universal Control between the Mac and another device; manually verify the trail stays confined to supported Mac displays, clears stale points when the pointer leaves or returns, restores one aligned overlay and saved style, never intercepts input, and retains no device identifiers or pointer coordinates.
