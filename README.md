@@ -444,3 +444,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document behavior while macOS Secure Input is active around password or credential entry; manually verify the trail never attempts to bypass protected input, remains paused or bounded as documented, clears stale points on transition, restores one overlay afterward, and retains no field metadata, application identity, or pointer coordinates.
 
 - Document interaction with macOS Mouse Keys and other accessibility-driven pointer movement; manually verify one aligned trail, bounded sampling, non-intercepting overlays, stale-point clearing when the feature toggles, responsive menu-bar controls, and no retention of accessibility settings, key events, or pointer coordinates.
+
+- Document trail alignment when the macOS pointer-size accessibility setting changes during a session; manually verify normal, enlarged, maximum, rapid-toggle, and restored sizes keep one correctly anchored trail, clear stale points before remapping, leave menu-bar controls responsive, and retain no accessibility-setting history or pointer coordinates.
