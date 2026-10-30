@@ -454,3 +454,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document interaction with macOS Switch Control or dwell-based pointer movement; manually verify one aligned trail, bounded density, stale-point clearing when control mode changes, non-intercepting overlays, responsive menu-bar controls, and no retention of switch events, accessibility configuration, device identity, or pointer coordinates.
 
 - Document interaction with macOS Head Pointer accessibility control; manually verify camera-driven movement keeps one aligned trail with bounded density, clears stale points when tracking starts or stops, leaves overlays non-intercepting and menu-bar controls responsive, and retains no camera data, accessibility configuration, or pointer coordinates.
+
+- Document interaction with macOS Voice Control pointer commands; manually verify spoken movement and click-grid actions keep one aligned trail with bounded density, clear stale points when control mode changes, leave overlays non-intercepting and menu-bar controls responsive, and retain no voice data, command history, accessibility configuration, or pointer coordinates.
