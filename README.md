@@ -452,3 +452,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document pointer handoff through macOS Universal Control between the Mac and another device; manually verify the trail stays confined to supported Mac displays, clears stale points when the pointer leaves or returns, restores one aligned overlay and saved style, never intercepts input, and retains no device identifiers or pointer coordinates.
 
 - Document interaction with macOS Switch Control or dwell-based pointer movement; manually verify one aligned trail, bounded density, stale-point clearing when control mode changes, non-intercepting overlays, responsive menu-bar controls, and no retention of switch events, accessibility configuration, device identity, or pointer coordinates.
+
+- Document interaction with macOS Head Pointer accessibility control; manually verify camera-driven movement keeps one aligned trail with bounded density, clears stale points when tracking starts or stops, leaves overlays non-intercepting and menu-bar controls responsive, and retains no camera data, accessibility configuration, or pointer coordinates.
