@@ -472,3 +472,5 @@ Maintenance note: verify remote-desktop and user-session transitions remove stal
 - Document interaction with Dock auto-hide and Dock magnification; manually verify hidden, revealed, magnified, edge-hover, rapid-toggle, display-move, and restored cases keep one bounded aligned trail, never block Dock input, clear stale points across window-level changes, keep menu-bar controls responsive, and retain no Dock settings or pointer coordinates.
 
 - Document interaction with macOS desktop widgets; manually verify static, interactive, edit-mode, dragged, stacked, hidden, display-move, and restored cases keep one bounded aligned trail, never intercept widget input, clear stale points across layout changes, keep menu-bar controls responsive, and retain no widget content or pointer coordinates.
+
+- Document interaction with macOS window tiling and layout changes; manually verify tiled, untiled, resized, dragged-between-displays, rapid-layout, app-switch, and restored cases keep one bounded aligned trail, never intercept window controls, clear stale points across coordinate changes, keep menu-bar controls responsive, and retain no window titles or pointer coordinates.
